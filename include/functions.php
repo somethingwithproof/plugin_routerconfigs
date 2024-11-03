@@ -433,11 +433,11 @@ function plugin_routerconfigs_download_config(&$device, $backuptime, $buffer_deb
 	}
 
 	$readname = "$backuppath$filename";
+
 	clearstatcache();
 	if (file_exists("$readname")) {
 		plugin_routerconfigs_log("DEBUG: Attempting to remove pre-existing incoming file: $readname");
 		@unlink("$readname");
-
 		clearstatcache();
 		if (file_exists("$readname")) {
 			$fail_msg = "ERROR: Failed to remove pre-existing incoming file: $readname";
@@ -707,8 +707,17 @@ function plugin_routerconfigs_retrieve_account ($device) {
                 array($device));
 
 	if (isset($info['username'])) {
-		$info['password'] = plugin_routerconfigs_decode($info['password']);
-		$info['enablepw'] = plugin_routerconfigs_decode($info['enablepw']);
+		if (isset($info['password']) && strlen($info['password']) > 0) {
+			$info['password'] = plugin_routerconfigs_decode($info['password']);
+		} else {
+			$info['password'] = '';
+		}
+
+		if (isset($info['enablepw']) && strlen($info['enablepw']) > 0) {
+			$info['enablepw'] = plugin_routerconfigs_decode($info['enablepw']);
+		} else {
+			$info['enablepw'] = '';
+		}
 		return $info;
 	}
 
@@ -718,6 +727,7 @@ function plugin_routerconfigs_retrieve_account ($device) {
 function plugin_routerconfigs_decode($info) {
 	$info = base64_decode($info);
 	$debug_info = preg_replace('~(;s:\d+:"password";s:(\d+:))"(.*)\"~','\\1"(\\2 chars)"', $info);
+
 	plugin_routerconfigs_log("DEBUG: Base64 decoded: $debug_info");
 
 	$info = unserialize($info);

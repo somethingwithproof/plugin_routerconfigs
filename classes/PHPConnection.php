@@ -25,6 +25,7 @@
 require_once(__DIR__ . '/LinePrompt.php');
 require_once(__DIR__ . '/Interfaces.php');
 
+#[AllowDynamicProperties]
 abstract class PHPConnection {
 	protected $debugbuffer = false;
 	protected $use_usleep  = 1;	// change to 1 for faster execution

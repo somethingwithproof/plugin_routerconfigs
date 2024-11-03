@@ -59,6 +59,7 @@ issue in GitHub.
 --- 1.6.1 ---
 
 * issue#126: Sorting on backups page not working
+* issue#137: Fix PHP8.2 warning messages, fix comware device type 
 
 --- 1.6 ---
 
