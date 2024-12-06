@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2024-12-01 02:16+0000\nLast-Translator: Anton Zhuravlev <baka109g@gmail.com>\nLanguage-Team: Russian <http://translate.cacti.net/projects/cacti/routerconfigs/ru/>\nLanguage: ru-RU\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\nX-Generator: Weblate 4.8.1\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2024-12-06 19:24+0000\nLast-Translator: Anton Zhuravlev <baka109g@gmail.com>\nLanguage-Team: Russian <http://translate.cacti.net/projects/cacti/routerconfigs/ru/>\nLanguage: ru-RU\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\nX-Generator: Weblate 4.8.1\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -87,13 +87,13 @@ msgstr "Никогда"
 #: include/arrays.php:86
 #, php-format
 msgid "%d hour"
-msgstr "%d час"
+msgstr "%d Час"
 
 #: include/arrays.php:87 include/arrays.php:88 include/arrays.php:89
 #: include/arrays.php:90 include/arrays.php:91 include/arrays.php:92
 #, php-format
 msgid "%d hours"
-msgstr "%d часов"
+msgstr "%d Часов"
 
 #: include/arrays.php:96
 msgid "00:00 (12am)"
@@ -1196,12 +1196,11 @@ msgid "When you click 'Continue', the following device(s) will be deleted."
 msgstr "Когда вы нажмете кнопку \"Продолжить\", следующие устройства будут удалены."
 
 #: router-devtypes.php:196
-#, fuzzy, php-format
+#, php-format
 msgid "Query [edit: %s]"
 msgstr "Запрос [Редактировать: %s]"
 
 #: router-devtypes.php:198
-#, fuzzy
 msgid "Query [new]"
 msgstr "Запрос [новый]"
 
