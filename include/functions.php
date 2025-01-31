@@ -305,16 +305,22 @@ function plugin_routerconfigs_message_devicetable(&$message, $devices, $failed) 
 }
 
 function plugin_routerconfigs_retention() {
+	global $rc_schedules_retention;
+
 	$backuppath = read_config_option('routerconfigs_backup_path');
 	if (!is_dir($backuppath) || strlen($backuppath) < 2) {
 		plugin_routerconfigs_log(__('ERROR: Backup Path is not set or is not a directory', 'routerconfigs'));
 		exit;
 	}
 
+	$min_days = min(array_keys($rc_schedules_retention));
+	$max_days = max(array_keys($rc_schedules_retention));
 	$days = read_config_option('routerconfigs_retention');
-	if ($days < 1 || $days > 365) {
+	if ($days < $min_days || $days > $max_days) {
+ 		plugin_routerconfigs_log(__('WARNING: Retention period \'%s\' is invalid, defaulting to 30 days', $days, 'routerconfigs'));
 		$days = 30;
 	}
+
 	$time = time() - ($days * 24 * 60 * 60);
 	$backups = db_fetch_assoc_prepared('SELECT *
 		FROM plugin_routerconfigs_backups
