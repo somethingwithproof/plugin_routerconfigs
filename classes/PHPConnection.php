@@ -353,13 +353,13 @@ abstract class PHPConnection {
 
 				$trim_buf = trim($buf);
 
-				if (preg_match("|[a-z0-9\-_]>[ ]*$|i", $buf) === 1) {
+				if (preg_match("|[a-z0-9\-_ ]+>[ ]*$|i", $buf) === 1) {
 					$this->Log('DEBUG: Found Prompt (Normal)');
 					$this->isEnabled = false;
 					$this->lastPrompt = LinePrompt::Normal;
 
 					return 0;
-				} elseif (preg_match("|[a-z0-9\-_]#[ ]*$|i", $buf) === 1) {
+				} elseif (preg_match("|[a-z0-9\-_ ]+#[ ]*$|i", $buf) === 1) {
 					$this->Log('DEBUG: Found Prompt (Enabled)');
 					$this->isEnabled = true;
 					$this->lastPrompt = LinePrompt::Enabled;
