@@ -1,7 +1,7 @@
 <?php
 /*
  +-------------------------------------------------------------------------+
- | Copyright (C) 2004-2024 The Cacti Group                                 |
+ | Copyright (C) 2004-2025 The Cacti Group                                 |
  |                                                                         |
  | This program is free software; you can redistribute it and/or           |
  | modify it under the terms of the GNU General Public License             |
@@ -29,7 +29,7 @@ require_once(__DIR__ . '/Interfaces.php');
 abstract class PHPConnection {
 	protected $debugbuffer = false;
 	protected $use_usleep  = 1;	// change to 1 for faster execution
-				// don't change to 1 on Windows servers unless you have PHP 5
+
 	protected $sleeptime   = 125000;
 	protected $timeout     = 1; //Seconds to avoid buggies connections
 
@@ -41,8 +41,19 @@ abstract class PHPConnection {
 	protected $debug       = '';
 	protected $ip          = '';
 
-	private $lastPrompt = 0;
-	private $isEnabled = false;
+	private $lastPrompt    = 0;
+	private $isEnabled     = false;
+
+	/* avoid deprecation warnings */
+	protected $classType       = null;
+	protected $pw1_text        = null;
+	protected $pw2_text        = null;
+	protected $device          = '';
+	protected $user            = '';
+	protected $pass            = '';
+	protected $enablepw        = '';
+	protected $deviceType      = '';
+	protected $isAlwaysEnabled = false;
 
 	private static $knownTypes = array();
 
@@ -65,21 +76,22 @@ abstract class PHPConnection {
 	}
 
 	function __construct($classtype, $devicetype, $device, $user, $pass, $enablepw, $bufferDebug = false, $elevated = false) {
-		$this->classType = $classtype;
+		$this->classType  = $classtype;
 
-		$this->pw1_text = plugin_routerconfigs_maskpw($pass);
-		$this->pw2_text = plugin_routerconfigs_maskpw($enablepw);
+		$this->pw1_text   = plugin_routerconfigs_maskpw($pass);
+		$this->pw2_text   = plugin_routerconfigs_maskpw($enablepw);
 
-		$this->device = $device;
-		$this->user = $user;
-		$this->pass = $pass;
-		$this->enablepw = $enablepw;
+		$this->device     = $device;
+		$this->user       = $user;
+		$this->pass       = $pass;
+		$this->enablepw   = $enablepw;
 		$this->deviceType = $devicetype;
 
-		$this->debug = '';
-		$this->debugbuffer = $bufferDebug;
-		$this->isEnabled = false;
+		$this->debug           = '';
+		$this->debugbuffer     = $bufferDebug;
+		$this->isEnabled       = false;
 		$this->isAlwaysEnabled = $elevated;
+
 		$this->setServerDetails();
 
 		$this->Log("DEBUG: Creating $classtype Server: $this->server, User: $this->user, Password: $this->pw1_text, Enablepw: $this->pw2_text, Elevated: $this->isAlwaysEnabled");
