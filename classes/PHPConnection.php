@@ -27,33 +27,33 @@ require_once(__DIR__ . '/Interfaces.php');
 
 #[AllowDynamicProperties]
 abstract class PHPConnection {
-	protected $debugbuffer = false;
-	protected $use_usleep  = 1;	// change to 1 for faster execution
+	protected $debugbuffer  = false;
+	protected $use_usleep   = 1;	// change to 1 for faster execution
 
-	protected $sleeptime   = 125000;
-	protected $timeout     = 1; //Seconds to avoid buggies connections
+	protected $sleeptime    = 125000;
+	protected $timeout      = 1; //Seconds to avoid buggies connections
 
-	protected $connection  = null; //stores the ssh connection pointer
-	protected $stream      = null; //points to the ssh session stream
-	protected $errorcode   = 0;
-	protected $error       = 0;
+	protected $connection   = null; //stores the ssh connection pointer
+	protected $stream       = null; //points to the ssh session stream
+	protected $errorcode    = 0;
+	protected $error        = 0;
 
-	protected $debug       = '';
-	protected $ip          = '';
+	protected $debug        = '';
+	protected $ip           = '';
 
-	private $lastPrompt    = 0;
-	private $isEnabled     = false;
+	private $lastPrompt     = 0;
+	private $isEnabled      = false;
 
 	/* avoid deprecation warnings */
-	protected $classType       = null;
-	protected $pw1_text        = null;
-	protected $pw2_text        = null;
-	protected $device          = '';
-	protected $user            = '';
-	protected $pass            = '';
-	protected $enablepw        = '';
-	protected $deviceType      = '';
-	protected $isAlwaysEnabled = false;
+	public $classType       = null;
+	public $pw1_text        = null;
+	public $pw2_text        = null;
+	public $device          = '';
+	public $user            = '';
+	public $pass            = '';
+	public $enablepw        = '';
+	public $deviceType      = '';
+	public $isAlwaysEnabled = false;
 
 	private static $knownTypes = array();
 
