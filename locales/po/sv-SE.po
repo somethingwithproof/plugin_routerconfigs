@@ -4,18 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr ""
-"Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: developers@cacti.net\n"
-"POT-Creation-Date: 2023-12-12 22:41-0600\n"
-"PO-Revision-Date: 2020-12-13 10:33-0500\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: sv_SE\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.2\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-03-14 13:09+0000\nLast-Translator: Daniel Nylander <weblate@danielnylander.se>\nLanguage-Team: Swedish <http://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.8.1\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -34,27 +23,22 @@ msgid "Disable"
 msgstr "Inaktivera"
 
 #: include/arrays.php:54
-#, fuzzy
 msgid "SSH/Telnet"
-msgstr "Telnet"
+msgstr "SSH/Telnet"
 
 #: include/arrays.php:55
-#, fuzzy
 msgid "SSH"
 msgstr "SSH"
 
 #: include/arrays.php:56
-#, fuzzy
 msgid "Telnet"
 msgstr "Telnet"
 
 #: include/arrays.php:57
-#, fuzzy
 msgid "SCP"
 msgstr "SCP"
 
 #: include/arrays.php:58
-#, fuzzy
 msgid "SFTP"
 msgstr "SFTP"
 
@@ -75,26 +59,26 @@ msgid "Monthly"
 msgstr "Månadsvis"
 
 #: include/arrays.php:72
-#, fuzzy, php-format
+#, php-format
 msgid "%d Month"
-msgstr "% d månad"
+msgstr "%d Månad"
 
 #: include/arrays.php:73 include/arrays.php:74 include/arrays.php:75
 #: include/arrays.php:76
-#, fuzzy, php-format
+#, php-format
 msgid "%d Months"
-msgstr "% d månader"
+msgstr "%d Månader"
 
 #: include/arrays.php:77
-#, fuzzy, php-format
+#, php-format
 msgid "%d Year"
-msgstr "% d år"
+msgstr "%d År"
 
 #: include/arrays.php:78 include/arrays.php:79 include/arrays.php:80
 #: include/arrays.php:81
-#, fuzzy, php-format
+#, php-format
 msgid "%d Years"
-msgstr "% d år"
+msgstr "%d År"
 
 #: include/arrays.php:85
 msgid "Never"
@@ -112,122 +96,98 @@ msgid "%d hours"
 msgstr "%d timmar"
 
 #: include/arrays.php:96
-#, fuzzy
 msgid "00:00 (12am)"
-msgstr "00:00 (00:00)"
+msgstr "00:00 (kl. 12.00)"
 
 #: include/arrays.php:97
-#, fuzzy
 msgid "01:00 (1am)"
-msgstr "01:00 (1:00)"
+msgstr "01:00 (1 på morgonen)"
 
 #: include/arrays.php:98
-#, fuzzy
 msgid "02:00 (2am)"
-msgstr "02:00 (02:00)"
+msgstr "02:00 (2 på morgonen)"
 
 #: include/arrays.php:99
-#, fuzzy
 msgid "03:00 (3am)"
-msgstr "03:00 (3:00)"
+msgstr "03:00 (3 på morgonen)"
 
 #: include/arrays.php:100
-#, fuzzy
 msgid "04:00 (4am)"
-msgstr "04:00 (04:00)"
+msgstr "04:00 (kl. 04.00)"
 
 #: include/arrays.php:101
-#, fuzzy
 msgid "05:00 (5am)"
-msgstr "05:00 (05:00)"
+msgstr "05:00 (5 på morgonen)"
 
 #: include/arrays.php:102
-#, fuzzy
 msgid "06:00 (6am)"
-msgstr "06:00 (06:00)"
+msgstr "06:00 (kl. 06.00)"
 
 #: include/arrays.php:103
-#, fuzzy
 msgid "07:00 (7am)"
-msgstr "07:00 (07:00)"
+msgstr "07:00 (kl. 7.00)"
 
 #: include/arrays.php:104
-#, fuzzy
 msgid "08:00 (8am)"
-msgstr "08:00 (8:00)"
+msgstr "08:00 (kl. 8.00)"
 
 #: include/arrays.php:105
-#, fuzzy
 msgid "09:00 (9am)"
 msgstr "09:00 (9:00)"
 
 #: include/arrays.php:106
-#, fuzzy
 msgid "10:00 (12am)"
 msgstr "10:00 (12:00)"
 
 #: include/arrays.php:107
-#, fuzzy
 msgid "11:00 (11am)"
-msgstr "11:00 (11:00)"
+msgstr "11:00 (kl. 11.00)"
 
 #: include/arrays.php:108
-#, fuzzy
 msgid "12:00 (12pm)"
-msgstr "12:00 (12:00)"
+msgstr "12:00 (12pm)"
 
 #: include/arrays.php:109
-#, fuzzy
 msgid "13:00 (1pm)"
-msgstr "13:00 (13:00)"
+msgstr "13:00 (1pm)"
 
 #: include/arrays.php:110
-#, fuzzy
 msgid "14:00 (2pm)"
-msgstr "14:00 (14:00)"
+msgstr "14:00 (2pm)"
 
 #: include/arrays.php:111
-#, fuzzy
 msgid "15:00 (3pm)"
-msgstr "15:00 (15:00)"
+msgstr "15:00 (3pm)"
 
 #: include/arrays.php:112
-#, fuzzy
 msgid "16:00 (4pm)"
-msgstr "16:00 (16:00)"
+msgstr "16:00 (4pm)"
 
 #: include/arrays.php:113
-#, fuzzy
 msgid "17:00 (5pm)"
-msgstr "17:00 (17:00)"
+msgstr "17:00 (kl. 17.00)"
 
 #: include/arrays.php:114
-#, fuzzy
 msgid "18:00 (6pm)"
-msgstr "18:00 (18:00)"
+msgstr "18:00 (6pm)"
 
 #: include/arrays.php:115
-#, fuzzy
 msgid "19:00 (7pm)"
-msgstr "19:00 (19:00)"
+msgstr "19:00 (7pm)"
 
 #: include/arrays.php:116
-#, fuzzy
 msgid "20:00 (8pm)"
 msgstr "20:00 (20:00)"
 
 #: include/arrays.php:117
-#, fuzzy
 msgid "21:00 (9pm)"
-msgstr "21:00 (21:00)"
+msgstr "21:00 (9pm)"
 
 #: include/arrays.php:118
-#, fuzzy
 msgid "22:00 (10pm)"
-msgstr "22:00 (22:00)"
+msgstr "22:00 (10pm)"
 
 #: include/arrays.php:119
-#, fuzzy
 msgid "23:00 (11pm)"
 msgstr "23:00 (23:00)"
 
@@ -236,63 +196,54 @@ msgid "Name"
 msgstr "Namn"
 
 #: include/arrays.php:126
-#, fuzzy
 msgid "Give this account a meaningful name that will be displayed."
-msgstr "Ge det här kontot ett meningsfullt namn som kommer att visas."
+msgstr "Ge kontot ett meningsfullt namn som kommer att visas."
 
 #: include/arrays.php:132 router-accounts.php:254
 msgid "Username"
 msgstr "Användarnamn"
 
 #: include/arrays.php:133
-#, fuzzy
 msgid "The username that will be used for authentication."
-msgstr "Användarnamnet som ska användas för autentisering."
+msgstr "Det användarnamn som ska användas för autentisering."
 
 #: include/arrays.php:139
 msgid "Password"
 msgstr "Lösenord"
 
 #: include/arrays.php:140
-#, fuzzy
 msgid "The password used for authentication."
-msgstr "Lösenordet som används för autentisering."
+msgstr "Det lösenord som används för autentisering."
 
 #: include/arrays.php:148
-#, fuzzy
 msgid "Enable Password"
 msgstr "Aktivera lösenord"
 
 #: include/arrays.php:149
-#, fuzzy
 msgid "Your Enable Password, if required."
-msgstr "Ditt aktivera lösenord, om det behövs."
+msgstr "Ditt lösenord för aktivering, om så krävs."
 
 #: include/arrays.php:164
-#, fuzzy
 msgid "Enable Device"
 msgstr "Aktivera enhet"
 
 #: include/arrays.php:165
-#, fuzzy
 msgid "Uncheck this box to disabled this device from being backed up."
-msgstr "Avmarkera den här rutan för att inaktivera den här enheten från att säkerhetskopieras."
+msgstr "Avmarkera den här rutan om du vill inaktivera enheten från säkerhetskopiering."
 
 #: include/arrays.php:172 router-accounts.php:254
 msgid "Description"
 msgstr "Beskrivning"
 
 #: include/arrays.php:173
-#, fuzzy
 msgid "Name of this device (will be used for config saving and SVN if no hostname is present in config)."
-msgstr "Namn på den här enheten (kommer att användas för config-sparning och SVN om inget värdnamn finns i config)."
+msgstr "Namn på den här enheten (används för att spara config och SVN om inget värdnamn finns i config)."
 
 #: include/arrays.php:179 router-devices.php:667
 msgid "IP Address"
 msgstr "IP adress"
 
 #: include/arrays.php:180
-#, fuzzy
 msgid "This is the IP Address used to communicate with the device."
 msgstr "Detta är den IP-adress som används för att kommunicera med enheten."
 
@@ -301,337 +252,276 @@ msgid "Directory"
 msgstr "Katalog"
 
 #: include/arrays.php:187
-#, fuzzy
 msgid "This is the relative directory structure used to store the configs."
-msgstr "Detta är den relativa katalogstrukturen som används för att lagra konfigurerna."
+msgstr "Detta är den relativa katalogstruktur som används för att lagra konfigurationerna."
 
 #: include/arrays.php:193
 msgid "Schedule"
 msgstr "Schema"
 
 #: include/arrays.php:194
-#, fuzzy
 msgid "How often to Backup this device."
-msgstr "Hur ofta säkerhetskopieras den här enheten."
+msgstr "Hur ofta ska du säkerhetskopiera den här enheten."
 
 #: include/arrays.php:201 router-devices.php:555 router-devices.php:650
-#, fuzzy
 msgid "Device Type"
 msgstr "Enhetstyp"
 
 #: include/arrays.php:202
-#, fuzzy
 msgid "Choose the type of device that the router is."
-msgstr "Välj vilken typ av enhet routern är."
+msgstr "Välj vilken typ av enhet som routern är."
 
 #: include/arrays.php:206 router-devices.php:770
-#, fuzzy
 msgid "Auto-Detect"
-msgstr "Auto-Detect"
+msgstr "Automatisk detektering"
 
 #: include/arrays.php:210 include/arrays.php:268
-#, fuzzy
 msgid "Connection Type"
-msgstr "Kopplingstyp"
+msgstr "Typ av anslutning"
 
 #: include/arrays.php:211 include/arrays.php:269
-#, fuzzy
 msgid "This is the type of connection used to communicate with the device."
-msgstr "Detta är den IP-adress som används för att kommunicera med enheten."
+msgstr "Detta är den typ av anslutning som används för att kommunicera med enheten."
 
 #: include/arrays.php:218
-#, fuzzy
 msgid "Authentication Account"
 msgstr "Autentiseringskonto"
 
 #: include/arrays.php:219
-#, fuzzy
 msgid "Choose an account to use to Login to the router"
-msgstr "Välj ett konto som ska användas för att logga in på routern"
+msgstr "Välj ett konto som du vill använda för att logga in på routern"
 
 #: include/arrays.php:223
 msgid "None"
 msgstr "Ingen"
 
 #: include/arrays.php:226 include/arrays.php:351 include/arrays.php:395
-#, fuzzy
 msgid "Default timeout"
 msgstr "Standard timeout"
 
 #: include/arrays.php:227 include/arrays.php:352 include/arrays.php:396
-#, fuzzy
 msgid "Default time to wait in seconds for a response"
-msgstr "Standardtid för att vänta i sekunder på ett svar"
+msgstr "Standardtid i sekunder för att vänta på ett svar"
 
 #: include/arrays.php:235 include/arrays.php:360 include/arrays.php:403
-#, fuzzy
 msgid "Default sleep time"
 msgstr "Standard sömntid"
 
 #: include/arrays.php:236 include/arrays.php:361 include/arrays.php:404
-#, fuzzy
 msgid "Default time to sleep in microseconds (1/1,000,000th of a second)"
-msgstr "Standardtid att sova i mikrosekunder (1/1 000 000 sekund)"
+msgstr "Standardtid för insomning i mikrosekunder (1/1.000.000.000 sekund)"
 
 #: include/arrays.php:245 include/arrays.php:344
-#, fuzzy
 msgid "Assume elevated"
 msgstr "Antag förhöjd"
 
 #: include/arrays.php:246 include/arrays.php:345
-#, fuzzy
 msgid "Check this box to assume this device is always elevated"
-msgstr "Avmarkera den här rutan för att inaktivera den här enheten från att säkerhetskopieras."
+msgstr "Markera den här rutan om du vill anta att enheten alltid är upphöjd"
 
 #: include/arrays.php:261
-#, fuzzy
 msgid "Name of this device type."
-msgstr "Namn på denna enhetstyp."
+msgstr "Namn på den här enhetstypen."
 
 #: include/arrays.php:276
-#, fuzzy
 msgid "Username Prompt"
-msgstr "Användarnamn Prompt"
+msgstr "Uppmaning om användarnamn"
 
 #: include/arrays.php:277
-#, fuzzy
 msgid "This is the username prompt to match on login."
-msgstr "Det här är användarnamnet för att matcha vid inloggning."
+msgstr "Detta är det användarnamn som ska anges vid inloggning."
 
 #: include/arrays.php:284
-#, fuzzy
 msgid "Password Prompt"
-msgstr "Lösenordsprompt"
+msgstr "Lösenordsfråga"
 
 #: include/arrays.php:285
-#, fuzzy
 msgid "This is the password prompt to match on login."
-msgstr "Detta är lösenordsprompten för att matcha vid inloggning."
+msgstr "Detta är det lösenord som ska anges vid inloggning."
 
 #: include/arrays.php:292
-#, fuzzy
 msgid "Configuration file"
 msgstr "Konfigurationsfil"
 
 #: include/arrays.php:293
-#, fuzzy
 msgid "This is the standard location of the configuration file on the remote device."
 msgstr "Detta är standardplatsen för konfigurationsfilen på fjärrenheten."
 
 #: include/arrays.php:300 router-devtypes.php:259
-#, fuzzy
 msgid "Copy TFTP"
 msgstr "Kopiera TFTP"
 
 #: include/arrays.php:301
-#, fuzzy
 msgid "This is the CLI text used to send the backup to tftp server."
-msgstr "Det här är CLI-texten som används för att skicka säkerhetskopian till tftp-servern."
+msgstr "Detta är den CLI-text som används för att skicka säkerhetskopian till tftp-servern."
 
 #: include/arrays.php:308
-#, fuzzy
 msgid "Show Version"
 msgstr "Visa version"
 
 #: include/arrays.php:309
-#, fuzzy
 msgid "This is the CLI text used to display the current version."
-msgstr "Det här är CLI-texten som används för att visa den aktuella versionen."
+msgstr "Detta är den CLI-text som används för att visa den aktuella versionen."
 
 #: include/arrays.php:316
-#, fuzzy
 msgid "Confirmation Prompt"
-msgstr "Config Backups"
+msgstr "Bekräftelseprompt"
 
 #: include/arrays.php:317
-#, fuzzy
 msgid "This is the confirmation prompt to match before transmission."
-msgstr "Det här är användarnamnet för att matcha vid inloggning."
+msgstr "Detta är den bekräftelse som ska matchas före sändning."
 
 #: include/arrays.php:324 router-devtypes.php:261
 msgid "Confirm"
 msgstr "Bekräfta"
 
 #: include/arrays.php:325
-#, fuzzy
 msgid "Is there a confirmation prompt for copying the config?"
-msgstr "Finns det en bekräftelse för att kopiera config?"
+msgstr "Finns det en bekräftelseprompt för kopiering av konfigurationen?"
 
 #: include/arrays.php:332 router-devtypes.php:262
-#, fuzzy
 msgid "Force Confirm"
-msgstr "Force Bekräfta"
+msgstr "Force Confirm"
 
 #: include/arrays.php:333
-#, fuzzy
 msgid "Is there a force confirmation prompt for copying the config?"
-msgstr "Finns det en snabbbekräftelsestid för kopiering av config?"
+msgstr "Finns det en tvingande bekräftelseprompt för kopiering av konfigurationen?"
 
 #: include/arrays.php:338
-#, fuzzy
 msgid "Check End in Config"
-msgstr "Kontrollera Slut i Konfig"
+msgstr "Kontrollera slutet i Config"
 
 #: include/arrays.php:339
-#, fuzzy
 msgid "Check end in config?"
-msgstr "Kontrollera slutet i config?"
+msgstr "Kontrollera slutet i konfigurationen?"
 
 #: include/arrays.php:369
-#, fuzzy
 msgid "Any Key prompt"
-msgstr "Vilken nyckel som helst"
+msgstr "Alla tangenters prompt"
 
 #: include/arrays.php:370
-#, fuzzy
 msgid "Text to match a 'Press Any Key To Continue' styled prompt"
-msgstr "Text för att matcha en \"Tryck på valfri knapp för att fortsätta\" -format"
+msgstr "Text som matchar en uppmaning i stil med \"Tryck på valfri knapp för att fortsätta"
 
 #: include/arrays.php:384
 msgid "General Settings"
-msgstr ""
+msgstr "Allmänna inställningar"
 
 #: include/arrays.php:388
-#, fuzzy
 msgid "Presentation Mode"
-msgstr "Retention Period"
+msgstr "Presentationsläge"
 
 #: include/arrays.php:389
 msgid "Should Router Configs be presented on the Console or a Top Tab."
-msgstr ""
+msgstr "Ska routerkonfigurationer visas på konsolen eller på en toppflik."
 
 #: include/arrays.php:392
 msgid "Console"
-msgstr ""
+msgstr "Konsol"
 
 #: include/arrays.php:392
 msgid "Top Tab"
-msgstr ""
+msgstr "Toppflik"
 
 #: include/arrays.php:411
-#, fuzzy
 msgid "Close without exit"
 msgstr "Stäng utan utgång"
 
 #: include/arrays.php:412
-#, fuzzy
 msgid "If ticked, when closing down the device connection, no 'exit' command is issued"
-msgstr "Om det är markerat utfärdas inget \"exit\" -kommando när enhetsanslutningen stängs"
+msgstr "Om markerad, när anslutningen till enheten stängs av, utfärdas inget \"exit\"-kommando"
 
 #: include/arrays.php:416
-#, fuzzy
 msgid "Debug Connection Buffer"
-msgstr "Felsök anslutningsbuffert"
+msgstr "Buffert för felsökningsanslutning"
 
 #: include/arrays.php:417
-#, fuzzy
 msgid "Whether to log direct output of device connection"
-msgstr "Oavsett om du vill logga direkt utdata från enhetsanslutningen"
+msgstr "Om direktutmatning från enhetens anslutning ska loggas"
 
 #: include/arrays.php:421
-#, fuzzy
 msgid "Assume all devices elevated"
-msgstr "Antag att alla enheter är förhöjda"
+msgstr "Antag att alla enheter är upphöjda"
 
 #: include/arrays.php:422
-#, fuzzy
 msgid "Whether to assume all devices are elevated"
-msgstr "Om man antar att alla enheter är förhöjda"
+msgstr "Om man ska anta att alla enheter är upphöjda"
 
 #: include/arrays.php:426
-#, fuzzy
 msgid "Download Hour"
 msgstr "Ladda ner timme"
 
 #: include/arrays.php:427
-#, fuzzy
 msgid "The hour of the day to perform the full downloads."
-msgstr "Den timme på dagen för att ladda ner hela nedladdningen."
+msgstr "Timmen på dagen för att utföra de fullständiga nedladdningarna."
 
 #: include/arrays.php:433
-#, fuzzy
 msgid "Retry Schedule"
-msgstr "Schema"
+msgstr "Schema för omprövning"
 
 #: include/arrays.php:434
-#, fuzzy
 msgid "The time to wait before attempting to perform an additional download when scheduled download fails"
-msgstr "Tiden att vänta innan du försöker utföra en ytterligare nedladdning när schemalagd nedladdning misslyckas"
+msgstr "Den tid som ska vänta innan man försöker utföra en ytterligare nedladdning när den schemalagda nedladdningen misslyckas"
 
 #: include/arrays.php:440
-#, fuzzy
 msgid "Retention Period"
-msgstr "Retention Period"
+msgstr "Lagringsperiod"
 
 #: include/arrays.php:441
-#, fuzzy
 msgid "The number of days to retain old backups."
-msgstr "Antalet dagar för att behålla gamla backup."
+msgstr "Antal dagar som gamla säkerhetskopior ska sparas."
 
 #: include/arrays.php:447
-#, fuzzy
 msgid "Transfer Options"
-msgstr "Överföringsalternativ"
+msgstr "Alternativ för överföring"
 
 #: include/arrays.php:451
-#, fuzzy
 msgid "Default connection type"
-msgstr "Standardanslutningstyp"
+msgstr "Standard anslutningstyp"
 
 #: include/arrays.php:452
-#, fuzzy
 msgid "Default type of connection used to communicate with the device."
-msgstr "Detta är den IP-adress som används för att kommunicera med enheten."
+msgstr "Standardtyp av anslutning som används för att kommunicera med enheten."
 
 #: include/arrays.php:458
-#, fuzzy
 msgid "Separate By Device"
 msgstr "Separera efter enhet"
 
 #: include/arrays.php:459
-#, fuzzy
 msgid "Separate archived Configs into a folder per device"
 msgstr "Separera arkiverade Configs i en mapp per enhet"
 
 #: include/arrays.php:464
-#, fuzzy
 msgid "SCP Path"
-msgstr "SCP-sökväg"
+msgstr "SCP-väg"
 
 #: include/arrays.php:465
-#, fuzzy
 msgid "When using SCP, leaving this blank will use PHP's SCP module which does not always work"
-msgstr "När du använder SCP använder du PHP: s SCP-modul som inte alltid fungerar om du lämnar detta tomt"
+msgstr "När du använder SCP, om du lämnar detta tomt kommer PHP:s SCP-modul att användas, vilket inte alltid fungerar"
 
 #: include/arrays.php:471
-#, fuzzy
 msgid "TFTP Server IP"
-msgstr "TFTP Server IP"
+msgstr "TFTP-server IP"
 
 #: include/arrays.php:472
-#, fuzzy
 msgid "Must be an IP pointing to your Cacti server."
 msgstr "Måste vara en IP som pekar på din Cacti-server."
 
 #: include/arrays.php:479
-#, fuzzy
 msgid "TFTP Backup Directory Path"
-msgstr "Backup Directory-sökvägen"
+msgstr "TFTP Backup Directory Sökväg"
 
 #: include/arrays.php:480
-#, fuzzy
 msgid "The path to where your Configs will be backed up, it must be the path that the local TFTP Server writes to."
-msgstr "Vägen till var din Configs kommer att säkerhetskopieras måste vara den sökväg som den lokala TFTP-servern skriver till."
+msgstr "Sökvägen till den plats där konfigureringen ska säkerhetskopieras måste vara den sökväg som den lokala TFTP-servern skriver till."
 
 #: include/arrays.php:487
-#, fuzzy
 msgid "Archive Directory Path"
-msgstr "Backup Directory-sökvägen"
+msgstr "Sökväg till arkivkatalog"
 
 #: include/arrays.php:488
-#, fuzzy
 msgid "The path to where your Configs will be archived (moved from TFTP directory)"
-msgstr "Vägen till var din Configs kommer att säkerhetskopieras måste vara den sökväg som den lokala TFTP-servern skriver till."
+msgstr "Sökvägen till den plats där dina konfigurationer ska arkiveras (flyttas från TFTP-katalogen)"
 
 #: include/arrays.php:495
 msgid "Email Options"
@@ -642,34 +532,30 @@ msgid "From Address"
 msgstr "Från adress"
 
 #: include/arrays.php:500
-#, fuzzy
 msgid "Email address the nightly backup will be sent from."
-msgstr "E-postadressen den nattliga backupen kommer att skickas från."
+msgstr "E-postadress som den nattliga säkerhetskopian skickas från."
 
 #: include/arrays.php:507
 msgid "From Name"
 msgstr "Från namn"
 
 #: include/arrays.php:508
-#, fuzzy
 msgid "Name the nightly backup will be sent from."
-msgstr "E-postadressen den nattliga backupen kommer att skickas från."
+msgstr "Namn som den nattliga säkerhetskopian skickas från."
 
 #: include/arrays.php:515
 msgid "Email Address"
 msgstr "E-postadress"
 
 #: include/arrays.php:516
-#, fuzzy
 msgid "A comma delimited list of Email addresses to send the nightly backup Email to."
-msgstr "En kommaavgränsad lista med e-postadresser för att skicka den nattliga säkerhetskopian E-post till."
+msgstr "En kommaseparerad lista med e-postadresser som den nattliga säkerhetskopian ska skickas till."
 
 #: include/functions.php:43 router-accounts.php:254
 msgid "Devices"
 msgstr "Enheter"
 
 #: include/functions.php:44 router-devtypes.php:243
-#, fuzzy
 msgid "Device Types"
 msgstr "Enhetstyper"
 
@@ -678,178 +564,160 @@ msgid "Authentication"
 msgstr "Autentisering"
 
 #: include/functions.php:46
-#, fuzzy
 msgid "Backups"
-msgstr "Säkerhetskopior"
+msgstr "Backup"
 
 #: include/functions.php:47 router-backups.php:340
 msgid "Compare"
 msgstr "Jämför"
 
 #: include/functions.php:64
-#, fuzzy, php-format
+#, php-format
 msgid "Technical Support [ %s ]"
-msgstr "Teknisk support [ %s]"
+msgstr "Teknisk support [ %s ]"
 
 #: include/functions.php:85
-#, fuzzy, php-format
+#, php-format
 msgid "(%s chars)"
 msgstr "(%s tecken)"
 
 #: include/functions.php:85
-#, fuzzy
 msgid "(Not Set)"
-msgstr "Ange som standard"
+msgstr "(Ej inställd)"
 
 #: include/functions.php:110
-#, fuzzy, php-format
+#, php-format
 msgid "NOTICE: Starting manual backup of %s devices"
-msgstr "ANMÄRKNING: Startar manuell säkerhetskopiering av %s enheter"
+msgstr "NOTICE: Startar manuell säkerhetskopiering av %s enheter"
 
 #: include/functions.php:113
-#, fuzzy
 msgid "NOTICE: Starting automatic retry"
-msgstr "ANMÄRKNING: Startar automatisk försök igen"
+msgstr "NOTICE: Startar automatisk omprövning"
 
 #: include/functions.php:115
-#, fuzzy
 msgid "NOTICE: Starting automatic backup"
-msgstr "ANMÄRKNING: Startar automatisk säkerhetskopiering"
+msgstr "OBSERVERA: Starta automatisk säkerhetskopiering"
 
 #: include/functions.php:130
-#, fuzzy
 msgid "FATAL: TFTP Backup Path is not set or is not a directory"
-msgstr "FATAL: Backup-sökvägen är inte inställd eller är inte en katalog"
+msgstr "FATAL: TFTP Backup Path är inte angiven eller är inte en katalog"
 
 #: include/functions.php:133
-#, fuzzy
 msgid "FATAL: TFTP Server is not set"
 msgstr "FATAL: TFTP-servern är inte inställd"
 
 #: include/functions.php:164
-#, fuzzy, php-format
+#, php-format
 msgid "DEBUG: Attempting download for %s"
-msgstr "DEBUG: Försök att ladda ner för %s"
+msgstr "DEBUG: Försöker ladda ner för %s"
 
 #: include/functions.php:204
-#, fuzzy, php-format
+#, php-format
 msgid "%s devices backed up successfully."
-msgstr "%s enheter säkerhetskopierades framgångsrikt. <br>"
+msgstr "%s enheter säkerhetskopierade framgångsrikt."
 
 #: include/functions.php:205
-#, fuzzy, php-format
+#, php-format
 msgid "%s devices failed to backup."
-msgstr "%s enheter misslyckades med att säkerhetskopiera. <br>"
+msgstr "%s enheter misslyckades med säkerhetskopieringen."
 
 #: include/functions.php:207
-#, fuzzy, php-format
+#, php-format
 msgid "%s devices disabled from backup."
-msgstr "%s enheter misslyckades med att säkerhetskopiera. <br>"
+msgstr "%s enheter inaktiverade från backup."
 
 #: include/functions.php:225
-#, fuzzy
 msgid "Config Backups"
-msgstr "Config Backups"
+msgstr "Säkerhetskopiering av konfiguration"
 
 #: include/functions.php:229
-#, fuzzy
 msgid "Configuration Backups"
-msgstr "Config Backups"
+msgstr "Säkerhetskopiering av konfiguration"
 
 #: include/functions.php:232
-#, fuzzy
 msgid " - Forced"
-msgstr " - Tvingade"
+msgstr " - Tvingad"
 
 #: include/functions.php:236
-#, fuzzy
 msgid " - Manual"
-msgstr "Manuell"
+msgstr " - Manuellt"
 
 #: include/functions.php:240
-#, fuzzy
 msgid " - Simulated"
 msgstr " - Simulerad"
 
 #: include/functions.php:244
-#, fuzzy
 msgid " - Scheduled"
-msgstr "Schemalagd"
+msgstr " - Planerad"
 
 #: include/functions.php:248
-#, fuzzy
 msgid " - Reattempt"
-msgstr " - Återförsök"
+msgstr " - Försök igen"
 
 #: include/functions.php:252
-#, fuzzy
 msgid ": Partial"
-msgstr ": Delvis"
+msgstr ": Partiell"
 
 #: include/functions.php:254
-#, fuzzy
 msgid ": FAILED"
-msgstr "misslyckades"
+msgstr ": MISSLYCKAD"
 
 #: include/functions.php:269
-#, fuzzy
 msgid "STATS: "
-msgstr "Statistik"
+msgstr "STATS: "
 
 #: include/functions.php:310
-#, fuzzy
 msgid "ERROR: Backup Path is not set or is not a directory"
-msgstr "Backup-sökvägen är inte inställd eller är inte en katalog"
+msgstr "ERROR: Backup Path är inte angiven eller är inte en katalog"
 
 #: include/functions.php:361
-#, fuzzy, php-format
+#, php-format
 msgid "STATS: Backup now running since %s"
-msgstr "STATISTIK: Säkerhetskopiering körs nu sedan %s"
+msgstr "STATS: Backup körs nu sedan %s"
 
 #: include/functions.php:365
-#, fuzzy, php-format
+#, php-format
 msgid "WARN: Backup already running since %s"
-msgstr "VARN: Säkerhetskopiering har redan körts sedan %s"
+msgstr "VARNA: Säkerhetskopiering pågår redan sedan %s"
 
 #: include/functions.php:481
-#, fuzzy, php-format
+#, php-format
 msgid "ERROR: Failed to connect to Device '%s' using connection type: %s"
-msgstr "FEL: Det gick inte att ansluta till enheten \"%s\" med anslutningstyp: %s"
+msgstr "FEL: Misslyckades med att ansluta till enhet '%s' med anslutningstyp: %s"
 
 #: include/functions.php:491
-#, fuzzy, php-format
+#, php-format
 msgid "ERROR: Failed to download '%s' to '%s' via '%s'"
-msgstr "FEL: Det gick inte att ladda ner \"%s\" till \"%s\" via \"%s\""
+msgstr "FEL: Misslyckades med att ladda ner '%s' till '%s' via '%s'"
 
 #: include/functions.php:840
-#, fuzzy, php-format
+#, php-format
 msgid "File '%s' failed to load"
-msgstr "Filen \"%s\" kunde inte laddas"
+msgstr "Filen '%s' kunde inte laddas"
 
 #: include/functions.php:843
-#, fuzzy, php-format
+#, php-format
 msgid "File '%s' was not found"
-msgstr "Filen \"%s\" hittades inte"
+msgstr "Filen '%s' hittades inte"
 
 #: include/functions.php:854
-#, fuzzy, php-format
+#, php-format
 msgid "Router Config for %s (%s)"
-msgstr "Router Config för %s ( %s)"
+msgstr "Routerkonfiguration för %s (%s)"
 
 #: include/functions.php:855
-#, fuzzy, php-format
+#, php-format
 msgid "Backup from %s"
-msgstr "Säkerhetskopiering från %s"
+msgstr "Säkerhetskopia från %s"
 
 #: include/functions.php:856
-#, fuzzy, php-format
+#, php-format
 msgid "File: %s/%s"
-msgstr "Fil: %s / %s"
+msgstr "Fil: %s/%s"
 
 #: router-accounts.php:130
-#, fuzzy
 msgid "Click 'Continue' to delete the following account(s)."
-msgstr "Klicka på \"Fortsätt\" för att radera följande konto (er)."
+msgstr "Klicka på \"Fortsätt\" för att radera följande konto(n)."
 
 #: router-accounts.php:136 router-devices.php:231 router-devices.php:240
 #: router-devices.php:249 router-devtypes.php:119
@@ -862,12 +730,10 @@ msgid "Continue"
 msgstr "Fortsätt"
 
 #: router-accounts.php:136 router-devices.php:231 router-devtypes.php:119
-#, fuzzy
 msgid "Delete Device(s)"
-msgstr "Radera enhet (er)"
+msgstr "Ta bort enhet(er)"
 
 #: router-accounts.php:138
-#, fuzzy
 msgid "You must select at least one device."
 msgstr "Du måste välja minst en enhet."
 
@@ -876,14 +742,13 @@ msgid "Return"
 msgstr "Tillbaka"
 
 #: router-accounts.php:210
-#, fuzzy, php-format
+#, php-format
 msgid "Account: [edit: %s]"
 msgstr "Konto: [redigera: %s]"
 
 #: router-accounts.php:212
-#, fuzzy
 msgid "Account: [new]"
-msgstr "Konto: [nytt]"
+msgstr "Konto: [ny]"
 
 #: router-accounts.php:246
 msgid "Accounts"
@@ -894,14 +759,12 @@ msgid "Account Management"
 msgstr "Kontoinställningar"
 
 #: router-accounts.php:270
-#, fuzzy
 msgid "No Router Accounts Found"
 msgstr "Inga routerkonton hittades"
 
 #: router-backups.php:202 setup.php:480
-#, fuzzy
 msgid "Router Backups"
-msgstr "Router Backups"
+msgstr "Säkerhetskopiering av router"
 
 #: router-backups.php:212 router-devices.php:559 router-devices.php:576
 msgid "Any"
@@ -920,9 +783,8 @@ msgid "Go"
 msgstr "Start"
 
 #: router-backups.php:244 router-devices.php:608
-#, fuzzy
 msgid "Set/Refresh Filters"
-msgstr "Ställ in / uppdatera filter"
+msgstr "Ställ in/uppdatera filter"
 
 #: router-backups.php:245 router-devices.php:609
 msgid "Clear"
@@ -937,172 +799,147 @@ msgid "Hostname"
 msgstr "Värdnamn"
 
 #: router-backups.php:262 router-devices.php:630
-#, fuzzy
 msgid "Either an IP address, or hostname.  If a hostname, it must be resolvable by either DNS, or from your hosts file."
-msgstr "Antingen en IP-adress eller värdnamn. Om ett värdnamn måste det lösas antingen genom DNS eller från din värdfil."
+msgstr "Antingen en IP-adress eller ett värdnamn.  Om det är ett värdnamn måste det kunna lösas med antingen DNS eller från din hosts-fil."
 
 #: router-backups.php:265 router-devices.php:633 router-devtypes.php:254
 msgid "ID"
 msgstr "ID"
 
 #: router-backups.php:268 router-devices.php:636
-#, fuzzy
 msgid "The internal database ID for this Device.  Useful when performing automation or debugging."
-msgstr "Det interna databas-ID för denna enhet. Användbar vid automatisering eller felsökning."
+msgstr "Det interna databas-ID:t för den här enheten.  Användbart vid automatisering eller felsökning."
 
 #: router-backups.php:271
 msgid "Functions"
 msgstr "Funktioner"
 
 #: router-backups.php:274
-#, fuzzy
 msgid "Perform functions against this backup"
 msgstr "Utför funktioner mot denna säkerhetskopia"
 
 #: router-backups.php:280 router-devices.php:706
-#, fuzzy
 msgid "The directory of the stored device backups"
-msgstr "Antalet dagar för att behålla gamla backup."
+msgstr "Katalogen för de lagrade säkerhetskopiorna av enheten"
 
 #: router-backups.php:283
-#, fuzzy
 msgid "Backup Time"
-msgstr "Backuptid"
+msgstr "Tid för säkerhetskopiering"
 
 #: router-backups.php:286 router-devices.php:647
-#, fuzzy
 msgid "The last Backup time of the device"
-msgstr "Hur ofta säkerhetskopieras den här enheten."
+msgstr "Den senaste säkerhetskopieringstiden för enheten"
 
 #: router-backups.php:289
-#, fuzzy
 msgid "Last Change"
-msgstr "Sista ändring"
+msgstr "Sista förändringen"
 
 #: router-backups.php:292
-#, fuzzy
 msgid "The last Change time of the device"
-msgstr "Enhetens senaste ändringstid"
+msgstr "Den senaste ändringstiden för enheten"
 
 #: router-backups.php:295 router-devices.php:698
-#, fuzzy
 msgid "Changed By"
-msgstr "Ändrad"
+msgstr "Ändrat Av"
 
 #: router-backups.php:298
-#, fuzzy
 msgid "The last person to change the configuration of the device"
-msgstr "Den sista personen som ändrade konfigurationen av enheten"
+msgstr "Den sista personen som kan ändra enhetens konfiguration"
 
 #: router-backups.php:301
 msgid "Filename"
 msgstr "Filnamn"
 
 #: router-backups.php:304
-#, fuzzy
 msgid "The filename of the stored device backups"
-msgstr "Antalet dagar för att behålla gamla backup."
+msgstr "Filnamnet för de lagrade säkerhetskopiorna av enheten"
 
 #: router-backups.php:338 setup.php:466 setup.php:501
-#, fuzzy
 msgid "View Config"
-msgstr "Visa Konfig"
+msgstr "Visa konfiguration"
 
 #: router-backups.php:351
-#, fuzzy
 msgid "No Router Backups Found"
-msgstr "Inga Router Backups hittades"
+msgstr "Inga säkerhetskopior av routern hittades"
 
 #: router-compare.php:91
-#, fuzzy
 msgid "Router Backup Comparison"
-msgstr "Router Backups"
+msgstr "Jämförelse av routerns säkerhetskopiering"
 
 #: router-compare.php:100
 msgid "Diff Mode"
-msgstr ""
+msgstr "Diff-läge"
 
 #: router-compare.php:104
 msgid "Inline"
-msgstr ""
+msgstr "Inline"
 
 #: router-compare.php:105
 msgid "Side by Side"
-msgstr ""
+msgstr "Sida vid sida"
 
 #: router-compare.php:164
-#, fuzzy
 msgid "Compare Output"
-msgstr "Jämför Output"
+msgstr "Jämför utgång"
 
 #: router-compare.php:241 router-compare.php:249
-#, fuzzy
 msgid "There are no Changes"
 msgstr "Det finns inga ändringar"
 
 #: router-compare.php:259
-#, fuzzy
 msgid "Error, you must have backups for each device."
 msgstr "Fel, du måste ha säkerhetskopior för varje enhet."
 
 #: router-devices.php:106
-#, fuzzy, php-format
+#, php-format
 msgid "Debug for %s (%s)<br><br>"
-msgstr "Felsökning för %s ( %s) <br><br>"
+msgstr "Felsökning för %s (%s)<br><br>"
 
 #: router-devices.php:198
-#, fuzzy, php-format
+#, php-format
 msgid "DEBUG: Executing manual backup using '%s' with arguments '%s'"
-msgstr "DEBUG: Utföra manuell säkerhetskopiering med \"%s\" med argumenten \"%s\""
+msgstr "DEBUG: Utför manuell säkerhetskopiering med '%s' med argumenten '%s'"
 
 #: router-devices.php:201
 msgid "Router Backup started.  Check the Date Backup column or the Cacti Log for completion status and timing"
-msgstr ""
+msgstr "Säkerhetskopiering av routern har startat.  Kontrollera kolumnen Datum för säkerhetskopiering eller Cacti-loggen för status och tidpunkt för slutförandet"
 
 #: router-devices.php:227
-#, fuzzy
 msgid "Click 'Continue' to Delete the following device(s)."
-msgstr "Klicka på \"Fortsätt\" för att ta bort följande enhet (er)."
+msgstr "Klicka på \"Fortsätt\" för att ta bort följande enhet(er)."
 
 #: router-devices.php:236
-#, fuzzy
 msgid "Click 'Continue' to Enable the following device(s)."
-msgstr "Klicka på \"Fortsätt\" för att Aktivera följande enhet (er)."
+msgstr "Klicka på \"Fortsätt\" för att aktivera följande enhet(er)."
 
 #: router-devices.php:240
-#, fuzzy
 msgid "Enable Device(s)"
-msgstr "Aktivera enhet (er)"
+msgstr "Aktivera enhet(er)"
 
 #: router-devices.php:245
-#, fuzzy
 msgid "Click 'Continue' to Disable the following device(s)."
-msgstr "Klicka på \"Fortsätt\" för att inaktivera följande enhet (er)."
+msgstr "Klicka på \"Fortsätt\" för att inaktivera följande enhet(er)."
 
 #: router-devices.php:249
-#, fuzzy
 msgid "Disable Device(s)"
-msgstr "Inaktivera enhet (er)"
+msgstr "Inaktivera enhet(er)"
 
 #: router-devices.php:253
-#, fuzzy
 msgid "You must select at least Router Device."
 msgstr "Du måste välja minst Router Device."
 
 #: router-devices.php:328
-#, fuzzy, php-format
+#, php-format
 msgid "Router: [edit: %s]"
 msgstr "Router: [redigera: %s]"
 
 #: router-devices.php:330
-#, fuzzy
 msgid "Router: [new]"
 msgstr "Router: [ny]"
 
 #: router-devices.php:546
-#, fuzzy
 msgid "Router Device Management"
-msgstr "Router Enhetshantering"
+msgstr "Hantering av routerenheter"
 
 #: router-devices.php:572
 msgid "Account"
@@ -1121,47 +958,38 @@ msgid "Last Backup"
 msgstr "Senast backup"
 
 #: router-devices.php:653
-#, fuzzy
 msgid "The device type of the device"
-msgstr "Enhetstypen för enheten"
+msgstr "Enhetens typ av enhet"
 
 #: router-devices.php:656
-#, fuzzy
 msgid "Connect Type"
-msgstr "Enhetstyp"
+msgstr "Anslut typ"
 
 #: router-devices.php:659
-#, fuzzy
 msgid "The connection type for this device"
-msgstr "Anslutningstypen för den här enheten"
+msgstr "Anslutningstyp för den här enheten"
 
 #: router-devices.php:662
-#, fuzzy
 msgid "Configs"
-msgstr "configs"
+msgstr "Konfigs"
 
 #: router-devices.php:664
-#, fuzzy
 msgid "The number of configurations for this device"
 msgstr "Antalet konfigurationer för den här enheten"
 
 #: router-devices.php:670
-#, fuzzy
 msgid "The IP address of this device"
-msgstr "Namn på denna enhetstyp."
+msgstr "IP-adressen för den här enheten"
 
 #: router-devices.php:673
-#, fuzzy
 msgid "Next Backup"
-msgstr "Senast backup"
+msgstr "Nästa Backup"
 
 #: router-devices.php:678
-#, fuzzy
 msgid "Date Backup"
-msgstr "Senast backup"
+msgstr "Datum Backup"
 
 #: router-devices.php:683
-#, fuzzy
 msgid "Next Attempt"
 msgstr "Nästa försök"
 
@@ -1170,9 +998,8 @@ msgid "Last Attempt"
 msgstr "Senaste försöket"
 
 #: router-devices.php:693
-#, fuzzy
 msgid "Date Change"
-msgstr "Sista ändring"
+msgstr "Datumändring"
 
 #: router-devices.php:738
 msgid "Today"
@@ -1191,14 +1018,12 @@ msgid "This Month"
 msgstr "Denna månad"
 
 #: router-devices.php:742
-#, fuzzy
 msgid "Within a Year"
 msgstr "Inom ett år"
 
 #: router-devices.php:743
-#, fuzzy
 msgid "Long, Long Ago"
-msgstr "Länge länge sedan"
+msgstr "För länge, länge sedan"
 
 #: router-devices.php:773 router-devtypes.php:281 router-devtypes.php:282
 #: router-devtypes.php:284
@@ -1211,149 +1036,127 @@ msgid "Yes"
 msgstr "Ja"
 
 #: router-devices.php:788
-#, fuzzy
 msgid "Connect via SSH"
 msgstr "Anslut via SSH"
 
 #: router-devices.php:792
-#, fuzzy
 msgid "Connect via Telnet"
 msgstr "Anslut via Telnet"
 
 #: router-devices.php:798
-#, fuzzy
 msgid "Trace Route"
-msgstr "Spårväg"
+msgstr "Spåra rutt"
 
 #: router-devices.php:801
-#, fuzzy
 msgid "Router Debug Info"
-msgstr "Router Debug Info"
+msgstr "Router felsökningsinfo"
 
 #: router-devices.php:812
-#, fuzzy, php-format
+#, php-format
 msgid "Backups (%s)"
-msgstr "Säkerhetskopior ( %s)"
+msgstr "Säkerhetskopior (%s)"
 
 #: router-devices.php:812
 msgid "Current"
 msgstr "Nuvarande"
 
 #: router-devices.php:827
-#, fuzzy
 msgid "No Router Devices Found"
-msgstr "Inga routernheter hittades"
+msgstr "Inga routerenheter hittades"
 
 #: router-devtypes.php:113
-#, fuzzy
 msgid "When you click 'Continue', the following device(s) will be deleted."
-msgstr "När du klickar på \"Fortsätt\" kommer följande enhet (er) att raderas."
+msgstr "När du klickar på \"Fortsätt\" kommer följande enhet(er) att raderas."
 
 #: router-devtypes.php:196
-#, fuzzy, php-format
+#, php-format
 msgid "Query [edit: %s]"
 msgstr "Fråga [redigera: %s]"
 
 #: router-devtypes.php:198
-#, fuzzy
 msgid "Query [new]"
 msgstr "Fråga [ny]"
 
 #: router-devtypes.php:247
-#, fuzzy
 msgid "View Router Device Types"
-msgstr "Visa routertypstyper"
+msgstr "Visa routerns enhetstyper"
 
 #: router-devtypes.php:256
 msgid "Type"
 msgstr "Typ"
 
 #: router-devtypes.php:257
-#, fuzzy
 msgid "User Prompt"
-msgstr "Användarnamn Prompt"
+msgstr "Användarprompt"
 
 #: router-devtypes.php:258
-#, fuzzy
 msgid "Pass Prompt"
-msgstr "Lösenordsprompt"
+msgstr "Passera uppmaning"
 
 #: router-devtypes.php:260
 msgid "Version"
 msgstr "Version"
 
 #: router-devtypes.php:263
-#, fuzzy
 msgid "Confirm Prompt"
-msgstr "Bekräfta nytt lösenord"
+msgstr "Bekräfta uppmaning"
 
 #: router-devtypes.php:264
-#, fuzzy
 msgid "Check End In Config"
-msgstr "Kontrollera slutet i konfig"
+msgstr "Kontrollera konfiguration av ändinställning"
 
 #: router-devtypes.php:272
-#, fuzzy
 msgid "Edit Device Type"
 msgstr "Redigera enhetstyp"
 
 #: router-devtypes.php:289
-#, fuzzy
 msgid "No Router Device Types Found"
-msgstr "Inga router-enhetstyper hittades"
+msgstr "Inga routerenhetstyper hittades"
 
 #: setup.php:42 setup.php:424 setup.php:439
-#, fuzzy
 msgid "Router Configs"
-msgstr "Router Configs"
+msgstr "Routerkonfigurationer"
 
 #: setup.php:413
-#, fuzzy, php-format
+#, php-format
 msgid "DEBUG: Executing '%s' with arguments '%s'"
-msgstr "DEBUG: Exekverar \"%s\" med argumenten \"%s\""
+msgstr "DEBUG: Körning av '%s' med argumenten '%s'"
 
 #: setup.php:439
 msgid "Utilities"
 msgstr "Tillbehör"
 
 #: setup.php:445
-#, fuzzy
 msgid "Router Devices"
-msgstr "Router enheter"
+msgstr "Router-enheter"
 
 #: setup.php:452 setup.php:487 setup.php:515
 msgid "(edit)"
 msgstr "(Redigera)"
 
 #: setup.php:459 setup.php:494 setup.php:522
-#, fuzzy
 msgid "(actions)"
-msgstr "Åtgärder"
+msgstr "(åtgärder)"
 
 #: setup.php:473
-#, fuzzy
 msgid "View Debug"
 msgstr "Visa felsökning"
 
 #: setup.php:508
-#, fuzzy
 msgid "Router Accounts"
-msgstr "Routerkonton"
+msgstr "Router-konton"
 
 #: setup.php:529
-#, fuzzy
 msgid "Router Compare"
-msgstr "Router Jämför"
+msgstr "Jämför router"
 
 #: setup.php:599
-#, fuzzy
 msgid "RouterConfigs"
-msgstr "Router Configs"
+msgstr "Routerkonfigurationer"
 
 #: setup.php:599
-#, fuzzy
 msgid "Routers"
-msgstr "Router Configs"
+msgstr "Routrar"
 
 #, fuzzy
 #~ msgid "Misc"
