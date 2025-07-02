@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-01 15:52+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-02 19:26+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -67,7 +67,7 @@ msgstr "%d თვე"
 #: include/arrays.php:76
 #, php-format
 msgid "%d Months"
-msgstr ""
+msgstr "%d თვე"
 
 #: include/arrays.php:77
 #, php-format
@@ -78,7 +78,7 @@ msgstr "%d წელი"
 #: include/arrays.php:81
 #, php-format
 msgid "%d Years"
-msgstr ""
+msgstr "%d წელი"
 
 #: include/arrays.php:85
 msgid "Never"
@@ -97,7 +97,7 @@ msgstr "%d საათი"
 
 #: include/arrays.php:96
 msgid "00:00 (12am)"
-msgstr ""
+msgstr "00:00 (12am)"
 
 #: include/arrays.php:97
 msgid "01:00 (1am)"
@@ -113,7 +113,7 @@ msgstr ""
 
 #: include/arrays.php:100
 msgid "04:00 (4am)"
-msgstr ""
+msgstr "04:00 (4am)"
 
 #: include/arrays.php:101
 msgid "05:00 (5am)"
@@ -125,7 +125,7 @@ msgstr "06:00 (6am)"
 
 #: include/arrays.php:103
 msgid "07:00 (7am)"
-msgstr ""
+msgstr "07:00 (7am)"
 
 #: include/arrays.php:104
 msgid "08:00 (8am)"
@@ -137,11 +137,11 @@ msgstr "09:00 (9am)"
 
 #: include/arrays.php:106
 msgid "10:00 (12am)"
-msgstr ""
+msgstr "10:00 (12am)"
 
 #: include/arrays.php:107
 msgid "11:00 (11am)"
-msgstr ""
+msgstr "11:00 (11am)"
 
 #: include/arrays.php:108
 msgid "12:00 (12pm)"
@@ -157,15 +157,15 @@ msgstr ""
 
 #: include/arrays.php:111
 msgid "15:00 (3pm)"
-msgstr ""
+msgstr "15:00 (3pm)"
 
 #: include/arrays.php:112
 msgid "16:00 (4pm)"
-msgstr ""
+msgstr "16:00 (4pm)"
 
 #: include/arrays.php:113
 msgid "17:00 (5pm)"
-msgstr ""
+msgstr "17:00 (5pm)"
 
 #: include/arrays.php:114
 msgid "18:00 (6pm)"
@@ -181,7 +181,7 @@ msgstr ""
 
 #: include/arrays.php:117
 msgid "21:00 (9pm)"
-msgstr ""
+msgstr "21:00 (9pm)"
 
 #: include/arrays.php:118
 msgid "22:00 (10pm)"
@@ -277,7 +277,7 @@ msgstr "ავტოაღმოჩენა"
 
 #: include/arrays.php:210 include/arrays.php:268
 msgid "Connection Type"
-msgstr ""
+msgstr "კავშირის ტიპი"
 
 #: include/arrays.php:211 include/arrays.php:269
 msgid "This is the type of connection used to communicate with the device."
@@ -297,7 +297,7 @@ msgstr "არცერთი"
 
 #: include/arrays.php:226 include/arrays.php:351 include/arrays.php:395
 msgid "Default timeout"
-msgstr ""
+msgstr "ნაგულისხმევი მოლოდინის ვადა"
 
 #: include/arrays.php:227 include/arrays.php:352 include/arrays.php:396
 msgid "Default time to wait in seconds for a response"
@@ -341,7 +341,7 @@ msgstr ""
 
 #: include/arrays.php:292
 msgid "Configuration file"
-msgstr ""
+msgstr "კონფიგურაციის ფაილი"
 
 #: include/arrays.php:293
 msgid "This is the standard location of the configuration file on the remote device."
@@ -365,7 +365,7 @@ msgstr ""
 
 #: include/arrays.php:316
 msgid "Confirmation Prompt"
-msgstr ""
+msgstr "დადასტურების მოთხოვნა"
 
 #: include/arrays.php:317
 msgid "This is the confirmation prompt to match before transmission."
@@ -405,11 +405,11 @@ msgstr ""
 
 #: include/arrays.php:384
 msgid "General Settings"
-msgstr ""
+msgstr "ზოგადი პარამეტრები"
 
 #: include/arrays.php:388
 msgid "Presentation Mode"
-msgstr ""
+msgstr "პრეზენტაციის რეჟიმი"
 
 #: include/arrays.php:389
 msgid "Should Router Configs be presented on the Console or a Top Tab."
@@ -449,7 +449,7 @@ msgstr ""
 
 #: include/arrays.php:426
 msgid "Download Hour"
-msgstr ""
+msgstr "საათის გადმოწერა"
 
 #: include/arrays.php:427
 msgid "The hour of the day to perform the full downloads."
@@ -457,7 +457,7 @@ msgstr ""
 
 #: include/arrays.php:433
 msgid "Retry Schedule"
-msgstr ""
+msgstr "გეგმის თავიდან ცდა"
 
 #: include/arrays.php:434
 msgid "The time to wait before attempting to perform an additional download when scheduled download fails"
@@ -465,7 +465,7 @@ msgstr ""
 
 #: include/arrays.php:440
 msgid "Retention Period"
-msgstr ""
+msgstr "შენარჩუნების პერიოდი"
 
 #: include/arrays.php:441
 msgid "The number of days to retain old backups."
@@ -493,7 +493,7 @@ msgstr ""
 
 #: include/arrays.php:464
 msgid "SCP Path"
-msgstr ""
+msgstr "SCP-ის ბილიკი"
 
 #: include/arrays.php:465
 msgid "When using SCP, leaving this blank will use PHP's SCP module which does not always work"
@@ -529,7 +529,7 @@ msgstr ""
 
 #: include/arrays.php:499
 msgid "From Address"
-msgstr ""
+msgstr "მისამართიდან"
 
 #: include/arrays.php:500
 msgid "Email address the nightly backup will be sent from."
@@ -537,7 +537,7 @@ msgstr ""
 
 #: include/arrays.php:507
 msgid "From Name"
-msgstr ""
+msgstr "რა სახელისგან"
 
 #: include/arrays.php:508
 msgid "Name the nightly backup will be sent from."
@@ -545,7 +545,7 @@ msgstr ""
 
 #: include/arrays.php:515
 msgid "Email Address"
-msgstr ""
+msgstr "ელფოსტის მისამართი"
 
 #: include/arrays.php:516
 msgid "A comma delimited list of Email addresses to send the nightly backup Email to."
@@ -557,7 +557,7 @@ msgstr "მოწყობილობები"
 
 #: include/functions.php:44 router-devtypes.php:243
 msgid "Device Types"
-msgstr ""
+msgstr "მოწყობილობის ტიპები"
 
 #: include/functions.php:45
 msgid "Authentication"
@@ -579,7 +579,7 @@ msgstr ""
 #: include/functions.php:85
 #, php-format
 msgid "(%s chars)"
-msgstr ""
+msgstr "(%s სიმბოლო)"
 
 #: include/functions.php:85
 msgid "(Not Set)"
@@ -632,7 +632,7 @@ msgstr ""
 
 #: include/functions.php:229
 msgid "Configuration Backups"
-msgstr ""
+msgstr "კონფიგურაციის მარქაფები"
 
 #: include/functions.php:232
 msgid " - Forced"
@@ -640,15 +640,15 @@ msgstr ""
 
 #: include/functions.php:236
 msgid " - Manual"
-msgstr ""
+msgstr " - სახელმძღვანელო"
 
 #: include/functions.php:240
 msgid " - Simulated"
-msgstr ""
+msgstr " - იმიტაცია"
 
 #: include/functions.php:244
 msgid " - Scheduled"
-msgstr ""
+msgstr " - დაგეგმილია"
 
 #: include/functions.php:248
 msgid " - Reattempt"
@@ -656,11 +656,11 @@ msgstr ""
 
 #: include/functions.php:252
 msgid ": Partial"
-msgstr ""
+msgstr ": ნაწილობრივი"
 
 #: include/functions.php:254
 msgid ": FAILED"
-msgstr ""
+msgstr ": ჩავარდა"
 
 #: include/functions.php:269
 msgid "STATS: "
@@ -748,7 +748,7 @@ msgstr ""
 
 #: router-accounts.php:212
 msgid "Account: [new]"
-msgstr ""
+msgstr "ანგარიში: [ახალი]"
 
 #: router-accounts.php:246
 msgid "Accounts"
@@ -756,7 +756,7 @@ msgstr "ანგარიშები"
 
 #: router-accounts.php:250
 msgid "Account Management"
-msgstr ""
+msgstr "ანგარიშების მართვა"
 
 #: router-accounts.php:270
 msgid "No Router Accounts Found"
@@ -824,7 +824,7 @@ msgstr ""
 
 #: router-backups.php:283
 msgid "Backup Time"
-msgstr ""
+msgstr "მარქაფის დრო"
 
 #: router-backups.php:286 router-devices.php:647
 msgid "The last Backup time of the device"
@@ -832,7 +832,7 @@ msgstr ""
 
 #: router-backups.php:289
 msgid "Last Change"
-msgstr ""
+msgstr "ბოლო ცვლილება"
 
 #: router-backups.php:292
 msgid "The last Change time of the device"
@@ -840,7 +840,7 @@ msgstr ""
 
 #: router-backups.php:295 router-devices.php:698
 msgid "Changed By"
-msgstr ""
+msgstr "ცვლილების ავტორი"
 
 #: router-backups.php:298
 msgid "The last person to change the configuration of the device"
@@ -983,7 +983,7 @@ msgstr ""
 
 #: router-devices.php:673
 msgid "Next Backup"
-msgstr ""
+msgstr "შემდეგი მარქაფი"
 
 #: router-devices.php:678
 msgid "Date Backup"
@@ -995,7 +995,7 @@ msgstr "შემდეგი მცდელობა"
 
 #: router-devices.php:688
 msgid "Last Attempt"
-msgstr ""
+msgstr "ბოლო მცდელობა"
 
 #: router-devices.php:693
 msgid "Date Change"
@@ -1015,7 +1015,7 @@ msgstr "ამ კვირაში"
 
 #: router-devices.php:741
 msgid "This Month"
-msgstr ""
+msgstr "ამ თვეში"
 
 #: router-devices.php:742
 msgid "Within a Year"
@@ -1075,7 +1075,7 @@ msgstr ""
 
 #: router-devtypes.php:198
 msgid "Query [new]"
-msgstr ""
+msgstr "მოთხოვნა [ახალი]"
 
 #: router-devtypes.php:247
 msgid "View Router Device Types"
@@ -1144,7 +1144,7 @@ msgstr ""
 
 #: setup.php:508
 msgid "Router Accounts"
-msgstr ""
+msgstr "რაუტერის ანგარიშები"
 
 #: setup.php:529
 msgid "Router Compare"
