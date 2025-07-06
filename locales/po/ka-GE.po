@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-04 18:15+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-06 03:26+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -117,7 +117,7 @@ msgstr "04:00 (4am)"
 
 #: include/arrays.php:101
 msgid "05:00 (5am)"
-msgstr ""
+msgstr "05:00 (5am)"
 
 #: include/arrays.php:102
 msgid "06:00 (6am)"
@@ -169,7 +169,7 @@ msgstr "17:00 (5pm)"
 
 #: include/arrays.php:114
 msgid "18:00 (6pm)"
-msgstr ""
+msgstr "18:00 (6pm)"
 
 #: include/arrays.php:115
 msgid "19:00 (7pm)"
@@ -433,7 +433,7 @@ msgstr ""
 
 #: include/arrays.php:416
 msgid "Debug Connection Buffer"
-msgstr ""
+msgstr "კავშირის ბუფერის გამართვა"
 
 #: include/arrays.php:417
 msgid "Whether to log direct output of device connection"
@@ -485,7 +485,7 @@ msgstr ""
 
 #: include/arrays.php:458
 msgid "Separate By Device"
-msgstr ""
+msgstr "გაყოფა მოწყობილობით"
 
 #: include/arrays.php:459
 msgid "Separate archived Configs into a folder per device"
@@ -501,7 +501,7 @@ msgstr ""
 
 #: include/arrays.php:471
 msgid "TFTP Server IP"
-msgstr ""
+msgstr "TFTP სერვერის IP"
 
 #: include/arrays.php:472
 msgid "Must be an IP pointing to your Cacti server."
@@ -708,7 +708,7 @@ msgstr ""
 #: include/functions.php:855
 #, php-format
 msgid "Backup from %s"
-msgstr ""
+msgstr "მაქაფი %s-დან"
 
 #: include/functions.php:856
 #, php-format
@@ -864,7 +864,7 @@ msgstr ""
 
 #: router-compare.php:91
 msgid "Router Backup Comparison"
-msgstr ""
+msgstr "რაუტერის მარქაფის შედარება"
 
 #: router-compare.php:100
 msgid "Diff Mode"
@@ -939,7 +939,7 @@ msgstr "რაუტერი: [ახალი]"
 
 #: router-devices.php:546
 msgid "Router Device Management"
-msgstr ""
+msgstr "რაუტერის მოწყობილობის მართვა"
 
 #: router-devices.php:572
 msgid "Account"
@@ -1023,7 +1023,7 @@ msgstr ""
 
 #: router-devices.php:743
 msgid "Long, Long Ago"
-msgstr ""
+msgstr "დიდი ხნის წინ"
 
 #: router-devices.php:773 router-devtypes.php:281 router-devtypes.php:282
 #: router-devtypes.php:284
@@ -1037,11 +1037,11 @@ msgstr "კი"
 
 #: router-devices.php:788
 msgid "Connect via SSH"
-msgstr ""
+msgstr "დაკავშირება SSH-ით"
 
 #: router-devices.php:792
 msgid "Connect via Telnet"
-msgstr ""
+msgstr "Telnet-ით დაკავშირება"
 
 #: router-devices.php:798
 msgid "Trace Route"
@@ -1049,7 +1049,7 @@ msgstr "რაუტების ტრეისი"
 
 #: router-devices.php:801
 msgid "Router Debug Info"
-msgstr ""
+msgstr "რაუტერის გამართვის ინფორმაცია"
 
 #: router-devices.php:812
 #, php-format
@@ -1071,7 +1071,7 @@ msgstr ""
 #: router-devtypes.php:196
 #, php-format
 msgid "Query [edit: %s]"
-msgstr ""
+msgstr "მოთხოვნა [ჩასწორება: %s]"
 
 #: router-devtypes.php:198
 msgid "Query [new]"
@@ -1099,7 +1099,7 @@ msgstr "ვერსია"
 
 #: router-devtypes.php:263
 msgid "Confirm Prompt"
-msgstr ""
+msgstr "დასტურის კითხვა"
 
 #: router-devtypes.php:264
 msgid "Check End In Config"
@@ -1148,7 +1148,7 @@ msgstr "რაუტერის ანგარიშები"
 
 #: setup.php:529
 msgid "Router Compare"
-msgstr ""
+msgstr "რაუტერის შედარება"
 
 #: setup.php:599
 msgid "RouterConfigs"
