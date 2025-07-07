@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-06 03:26+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-07 04:26+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -397,7 +397,7 @@ msgstr ""
 
 #: include/arrays.php:369
 msgid "Any Key prompt"
-msgstr ""
+msgstr "ნებისმიერი ღილაკის კითხვა"
 
 #: include/arrays.php:370
 msgid "Text to match a 'Press Any Key To Continue' styled prompt"
@@ -477,7 +477,7 @@ msgstr "გადატანის პარამეტრები"
 
 #: include/arrays.php:451
 msgid "Default connection type"
-msgstr ""
+msgstr "ნაგულისხმევი კავშირის ტიპი"
 
 #: include/arrays.php:452
 msgid "Default type of connection used to communicate with the device."
@@ -744,7 +744,7 @@ msgstr "დაბრუნება"
 #: router-accounts.php:210
 #, php-format
 msgid "Account: [edit: %s]"
-msgstr ""
+msgstr "ანგარიში: [ჩასწორება: %s]"
 
 #: router-accounts.php:212
 msgid "Account: [new]"
@@ -931,7 +931,7 @@ msgstr ""
 #: router-devices.php:328
 #, php-format
 msgid "Router: [edit: %s]"
-msgstr ""
+msgstr "რაუტერი: [ჩასწორება: %s]"
 
 #: router-devices.php:330
 msgid "Router: [new]"
