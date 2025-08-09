@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-07-07 04:26+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-08-09 09:57+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -305,7 +305,7 @@ msgstr ""
 
 #: include/arrays.php:235 include/arrays.php:360 include/arrays.php:403
 msgid "Default sleep time"
-msgstr ""
+msgstr "ნაგულისხმევი ძილის დრო"
 
 #: include/arrays.php:236 include/arrays.php:361 include/arrays.php:404
 msgid "Default time to sleep in microseconds (1/1,000,000th of a second)"
@@ -1107,7 +1107,7 @@ msgstr ""
 
 #: router-devtypes.php:272
 msgid "Edit Device Type"
-msgstr ""
+msgstr "მოწყობილობის ტიპის ჩასწორება"
 
 #: router-devtypes.php:289
 msgid "No Router Device Types Found"
