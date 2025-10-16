@@ -4,11 +4,11 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-03-18 09:57+0000\nLast-Translator: Daniel Nylander <weblate@danielnylander.se>\nLanguage-Team: Swedish <http://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 4.8.1\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-10-16 18:18+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <https://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
-msgstr "Radera"
+msgstr "Ta bort"
 
 #: include/arrays.php:43
 msgid "Backup"
@@ -768,7 +768,7 @@ msgstr "Säkerhetskopiering av router"
 
 #: router-backups.php:212 router-devices.php:559 router-devices.php:576
 msgid "Any"
-msgstr "Vilken som helst"
+msgstr "Alla"
 
 #: router-backups.php:225 router-devices.php:589
 msgid "Search"
@@ -788,11 +788,11 @@ msgstr "Ställ in/uppdatera filter"
 
 #: router-backups.php:245 router-devices.php:609
 msgid "Clear"
-msgstr "Rensa"
+msgstr "Töm"
 
 #: router-backups.php:245 router-devices.php:609
 msgid "Clear Filters"
-msgstr "Rensa filter"
+msgstr "Töm filter"
 
 #: router-backups.php:259 router-devices.php:627
 msgid "Hostname"
@@ -951,7 +951,7 @@ msgstr "Åtgärder"
 
 #: router-devices.php:639
 msgid "Enabled"
-msgstr "Aktiverad"
+msgstr "Aktiverat"
 
 #: router-devices.php:644
 msgid "Last Backup"
