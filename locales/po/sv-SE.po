@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-10-18 11:25+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <https://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-10-22 17:18+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <https://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -97,99 +97,99 @@ msgstr "%d timmar"
 
 #: include/arrays.php:96
 msgid "00:00 (12am)"
-msgstr "00:00 (kl. 12.00)"
+msgstr "00.00"
 
 #: include/arrays.php:97
 msgid "01:00 (1am)"
-msgstr "01:00 (1 på morgonen)"
+msgstr "01.00"
 
 #: include/arrays.php:98
 msgid "02:00 (2am)"
-msgstr "02:00 (2 på morgonen)"
+msgstr "02.00"
 
 #: include/arrays.php:99
 msgid "03:00 (3am)"
-msgstr "03:00 (3 på morgonen)"
+msgstr "03.00"
 
 #: include/arrays.php:100
 msgid "04:00 (4am)"
-msgstr "04:00 (kl. 04.00)"
+msgstr "04.00"
 
 #: include/arrays.php:101
 msgid "05:00 (5am)"
-msgstr "05:00 (5 på morgonen)"
+msgstr "05.00"
 
 #: include/arrays.php:102
 msgid "06:00 (6am)"
-msgstr "06:00 (kl. 06.00)"
+msgstr "06.00"
 
 #: include/arrays.php:103
 msgid "07:00 (7am)"
-msgstr "07:00 (kl. 7.00)"
+msgstr "07.00"
 
 #: include/arrays.php:104
 msgid "08:00 (8am)"
-msgstr "08:00 (kl. 8.00)"
+msgstr "08.00"
 
 #: include/arrays.php:105
 msgid "09:00 (9am)"
-msgstr "09:00 (9:00)"
+msgstr "09.00"
 
 #: include/arrays.php:106
 msgid "10:00 (12am)"
-msgstr "10:00 (12:00)"
+msgstr "10.00"
 
 #: include/arrays.php:107
 msgid "11:00 (11am)"
-msgstr "11:00 (kl. 11.00)"
+msgstr "11.00"
 
 #: include/arrays.php:108
 msgid "12:00 (12pm)"
-msgstr "12:00 (12pm)"
+msgstr "12.00"
 
 #: include/arrays.php:109
 msgid "13:00 (1pm)"
-msgstr "13:00 (1pm)"
+msgstr "13.00"
 
 #: include/arrays.php:110
 msgid "14:00 (2pm)"
-msgstr "14:00 (2pm)"
+msgstr "14.00"
 
 #: include/arrays.php:111
 msgid "15:00 (3pm)"
-msgstr "15:00 (3pm)"
+msgstr "15.00"
 
 #: include/arrays.php:112
 msgid "16:00 (4pm)"
-msgstr "16:00 (4pm)"
+msgstr "16.00"
 
 #: include/arrays.php:113
 msgid "17:00 (5pm)"
-msgstr "17:00 (kl. 17.00)"
+msgstr "17.00"
 
 #: include/arrays.php:114
 msgid "18:00 (6pm)"
-msgstr "18:00 (6pm)"
+msgstr "18.00"
 
 #: include/arrays.php:115
 msgid "19:00 (7pm)"
-msgstr "19:00 (7pm)"
+msgstr "19.00"
 
 #: include/arrays.php:116
 msgid "20:00 (8pm)"
-msgstr "20:00 (20:00)"
+msgstr "20.00"
 
 #: include/arrays.php:117
 msgid "21:00 (9pm)"
-msgstr "21:00 (9pm)"
+msgstr "21.00"
 
 #: include/arrays.php:118
 msgid "22:00 (10pm)"
-msgstr "22:00 (10pm)"
+msgstr "22.00"
 
 #: include/arrays.php:119
 msgid "23:00 (11pm)"
-msgstr "23:00 (23:00)"
+msgstr "23.00"
 
 #: include/arrays.php:125 include/arrays.php:260 router-devtypes.php:255
 msgid "Name"
@@ -237,7 +237,7 @@ msgstr "Beskrivning"
 
 #: include/arrays.php:173
 msgid "Name of this device (will be used for config saving and SVN if no hostname is present in config)."
-msgstr "Namn på den här enheten (används för att spara config och SVN om inget värdnamn finns i config)."
+msgstr "Namn på den här enheten (används för att spara konfiguration och SVN om inget värdnamn finns i konfigurationen)."
 
 #: include/arrays.php:179 router-devices.php:667
 msgid "IP Address"
@@ -277,7 +277,7 @@ msgstr "Automatisk detektering"
 
 #: include/arrays.php:210 include/arrays.php:268
 msgid "Connection Type"
-msgstr "Typ av anslutning"
+msgstr "Anslutningstyp"
 
 #: include/arrays.php:211 include/arrays.php:269
 msgid "This is the type of connection used to communicate with the device."
@@ -297,7 +297,7 @@ msgstr "Ingen"
 
 #: include/arrays.php:226 include/arrays.php:351 include/arrays.php:395
 msgid "Default timeout"
-msgstr "Standard timeout"
+msgstr "Standardtidsgräns"
 
 #: include/arrays.php:227 include/arrays.php:352 include/arrays.php:396
 msgid "Default time to wait in seconds for a response"
@@ -305,7 +305,7 @@ msgstr "Standardtid i sekunder för att vänta på ett svar"
 
 #: include/arrays.php:235 include/arrays.php:360 include/arrays.php:403
 msgid "Default sleep time"
-msgstr "Standard sömntid"
+msgstr "Insomningstid som standard"
 
 #: include/arrays.php:236 include/arrays.php:361 include/arrays.php:404
 msgid "Default time to sleep in microseconds (1/1,000,000th of a second)"
@@ -313,11 +313,11 @@ msgstr "Standardtid för insomning i mikrosekunder (1/1.000.000.000 sekund)"
 
 #: include/arrays.php:245 include/arrays.php:344
 msgid "Assume elevated"
-msgstr "Antag förhöjd"
+msgstr "Antag eleverad"
 
 #: include/arrays.php:246 include/arrays.php:345
 msgid "Check this box to assume this device is always elevated"
-msgstr "Markera den här rutan om du vill anta att enheten alltid är upphöjd"
+msgstr "Markera den här rutan om du vill anta att enheten alltid är eleverad"
 
 #: include/arrays.php:261
 msgid "Name of this device type."
@@ -325,7 +325,7 @@ msgstr "Namn på den här enhetstypen."
 
 #: include/arrays.php:276
 msgid "Username Prompt"
-msgstr "Uppmaning om användarnamn"
+msgstr "Fråga om användarnamn"
 
 #: include/arrays.php:277
 msgid "This is the username prompt to match on login."
@@ -333,7 +333,7 @@ msgstr "Detta är det användarnamn som ska anges vid inloggning."
 
 #: include/arrays.php:284
 msgid "Password Prompt"
-msgstr "Lösenordsfråga"
+msgstr "Fråga om lösenord"
 
 #: include/arrays.php:285
 msgid "This is the password prompt to match on login."
@@ -369,7 +369,7 @@ msgstr "Bekräftelseprompt"
 
 #: include/arrays.php:317
 msgid "This is the confirmation prompt to match before transmission."
-msgstr "Detta är den bekräftelse som ska matchas före sändning."
+msgstr "Detta är den bekräftelseprompt som ska matchas före överföring."
 
 #: include/arrays.php:324 router-devtypes.php:261
 msgid "Confirm"
@@ -381,7 +381,7 @@ msgstr "Finns det en bekräftelseprompt för kopiering av konfigurationen?"
 
 #: include/arrays.php:332 router-devtypes.php:262
 msgid "Force Confirm"
-msgstr "Force Confirm"
+msgstr "Tvinga bekräftelse"
 
 #: include/arrays.php:333
 msgid "Is there a force confirmation prompt for copying the config?"
@@ -389,7 +389,7 @@ msgstr "Finns det en tvingande bekräftelseprompt för kopiering av konfiguratio
 
 #: include/arrays.php:338
 msgid "Check End in Config"
-msgstr "Kontrollera slutet i Config"
+msgstr "Kontrollera slutet i konfiguration"
 
 #: include/arrays.php:339
 msgid "Check end in config?"
@@ -397,11 +397,11 @@ msgstr "Kontrollera slutet i konfigurationen?"
 
 #: include/arrays.php:369
 msgid "Any Key prompt"
-msgstr "Alla tangenters prompt"
+msgstr "Valfri tangentprompt"
 
 #: include/arrays.php:370
 msgid "Text to match a 'Press Any Key To Continue' styled prompt"
-msgstr "Text som matchar en uppmaning i stil med \"Tryck på valfri knapp för att fortsätta"
+msgstr "Text som matchar en uppmaning i stil med \"Tryck på valfri knapp för att fortsätta\""
 
 #: include/arrays.php:384
 msgid "General Settings"
@@ -425,7 +425,7 @@ msgstr "Toppflik"
 
 #: include/arrays.php:411
 msgid "Close without exit"
-msgstr "Stäng utan utgång"
+msgstr "Stäng utan avslut"
 
 #: include/arrays.php:412
 msgid "If ticked, when closing down the device connection, no 'exit' command is issued"
@@ -441,19 +441,19 @@ msgstr "Om direktutmatning från enhetens anslutning ska loggas"
 
 #: include/arrays.php:421
 msgid "Assume all devices elevated"
-msgstr "Antag att alla enheter är upphöjda"
+msgstr "Antag att alla enheter är eleverade"
 
 #: include/arrays.php:422
 msgid "Whether to assume all devices are elevated"
-msgstr "Om man ska anta att alla enheter är upphöjda"
+msgstr "Om man ska anta att alla enheter är eleverade"
 
 #: include/arrays.php:426
 msgid "Download Hour"
-msgstr "Ladda ner timme"
+msgstr "Nedladdningstimme"
 
 #: include/arrays.php:427
 msgid "The hour of the day to perform the full downloads."
-msgstr "Timmen på dagen för att utföra de fullständiga nedladdningarna."
+msgstr "Den timme på dagen att utföra de fullständiga nedladdningarna."
 
 #: include/arrays.php:433
 msgid "Retry Schedule"
@@ -477,7 +477,7 @@ msgstr "Alternativ för överföring"
 
 #: include/arrays.php:451
 msgid "Default connection type"
-msgstr "Standard anslutningstyp"
+msgstr "Anslutningstyp som standard"
 
 #: include/arrays.php:452
 msgid "Default type of connection used to communicate with the device."
@@ -493,7 +493,7 @@ msgstr "Separera arkiverade Configs i en mapp per enhet"
 
 #: include/arrays.php:464
 msgid "SCP Path"
-msgstr "SCP-väg"
+msgstr "SCP-sökväg"
 
 #: include/arrays.php:465
 msgid "When using SCP, leaving this blank will use PHP's SCP module which does not always work"
@@ -501,7 +501,7 @@ msgstr "När du använder SCP, om du lämnar detta tomt kommer PHP:s SCP-modul a
 
 #: include/arrays.php:471
 msgid "TFTP Server IP"
-msgstr "TFTP-server IP"
+msgstr "IP för TFTP-server"
 
 #: include/arrays.php:472
 msgid "Must be an IP pointing to your Cacti server."
@@ -509,7 +509,7 @@ msgstr "Måste vara en IP som pekar på din Cacti-server."
 
 #: include/arrays.php:479
 msgid "TFTP Backup Directory Path"
-msgstr "TFTP Backup Directory Sökväg"
+msgstr "Sökväg till TFTP-säkerhetskopieringskatalog"
 
 #: include/arrays.php:480
 msgid "The path to where your Configs will be backed up, it must be the path that the local TFTP Server writes to."
@@ -525,11 +525,11 @@ msgstr "Sökvägen till den plats där dina konfigurationer ska arkiveras (flytt
 
 #: include/arrays.php:495
 msgid "Email Options"
-msgstr "E-post Val"
+msgstr "Alternativ för e-post"
 
 #: include/arrays.php:499
 msgid "From Address"
-msgstr "Från adress"
+msgstr "Från-adress"
 
 #: include/arrays.php:500
 msgid "Email address the nightly backup will be sent from."
@@ -537,7 +537,7 @@ msgstr "E-postadress som den nattliga säkerhetskopian skickas från."
 
 #: include/arrays.php:507
 msgid "From Name"
-msgstr "Från namn"
+msgstr "Från-namn"
 
 #: include/arrays.php:508
 msgid "Name the nightly backup will be sent from."
@@ -565,7 +565,7 @@ msgstr "Autentisering"
 
 #: include/functions.php:46
 msgid "Backups"
-msgstr "Backup"
+msgstr "Säkerhetskopior"
 
 #: include/functions.php:47 router-backups.php:340
 msgid "Compare"
@@ -583,38 +583,38 @@ msgstr "(%s tecken)"
 
 #: include/functions.php:85
 msgid "(Not Set)"
-msgstr "(Ej inställd)"
+msgstr "(Inte inställd)"
 
 #: include/functions.php:110
 #, php-format
 msgid "NOTICE: Starting manual backup of %s devices"
-msgstr "NOTICE: Startar manuell säkerhetskopiering av %s enheter"
+msgstr "OBSERVERA: Startar manuell säkerhetskopiering av %s enheter"
 
 #: include/functions.php:113
 msgid "NOTICE: Starting automatic retry"
-msgstr "NOTICE: Startar automatisk omprövning"
+msgstr "OBSERVERA: Startar automatisk omprövning"
 
 #: include/functions.php:115
 msgid "NOTICE: Starting automatic backup"
-msgstr "OBSERVERA: Starta automatisk säkerhetskopiering"
+msgstr "OBSERVERA: Startar automatisk säkerhetskopiering"
 
 #: include/functions.php:130
 msgid "FATAL: TFTP Backup Path is not set or is not a directory"
-msgstr "FATAL: TFTP Backup Path är inte angiven eller är inte en katalog"
+msgstr "ALLVARLIGT: Sökväg för TFTP-säkerhetskopiering är inte angiven eller är inte en katalog"
 
 #: include/functions.php:133
 msgid "FATAL: TFTP Server is not set"
-msgstr "FATAL: TFTP-servern är inte inställd"
+msgstr "ALLVARLIGT: TFTP-servern är inte inställd"
 
 #: include/functions.php:164
 #, php-format
 msgid "DEBUG: Attempting download for %s"
-msgstr "DEBUG: Försöker ladda ner för %s"
+msgstr "FELSÖK: Försöker hämta ner för %s"
 
 #: include/functions.php:204
 #, php-format
 msgid "%s devices backed up successfully."
-msgstr "%s enheter säkerhetskopierade framgångsrikt."
+msgstr "%s enheter säkerhetskopierades."
 
 #: include/functions.php:205
 #, php-format
@@ -624,7 +624,7 @@ msgstr "%s enheter misslyckades med säkerhetskopieringen."
 #: include/functions.php:207
 #, php-format
 msgid "%s devices disabled from backup."
-msgstr "%s enheter inaktiverade från backup."
+msgstr "%s enheter inaktiverade från säkerhetskopiering."
 
 #: include/functions.php:225
 msgid "Config Backups"
@@ -632,7 +632,7 @@ msgstr "Säkerhetskopiering av konfiguration"
 
 #: include/functions.php:229
 msgid "Configuration Backups"
-msgstr "Säkerhetskopiering av konfiguration"
+msgstr "Säkerhetskopior av konfiguration"
 
 #: include/functions.php:232
 msgid " - Forced"
@@ -648,15 +648,15 @@ msgstr " - Simulerad"
 
 #: include/functions.php:244
 msgid " - Scheduled"
-msgstr " - Planerad"
+msgstr " - Schemalagd"
 
 #: include/functions.php:248
 msgid " - Reattempt"
-msgstr " - Försök igen"
+msgstr " - Omprövning"
 
 #: include/functions.php:252
 msgid ": Partial"
-msgstr ": Partiell"
+msgstr ": Delvis"
 
 #: include/functions.php:254
 msgid ": FAILED"
@@ -664,21 +664,21 @@ msgstr ": MISSLYCKAD"
 
 #: include/functions.php:269
 msgid "STATS: "
-msgstr "STATS: "
+msgstr "STATISTIK: "
 
 #: include/functions.php:310
 msgid "ERROR: Backup Path is not set or is not a directory"
-msgstr "ERROR: Backup Path är inte angiven eller är inte en katalog"
+msgstr "FEL: Sökväg för säkerhetskopia är inte angiven eller är inte en katalog"
 
 #: include/functions.php:361
 #, php-format
 msgid "STATS: Backup now running since %s"
-msgstr "STATS: Backup körs nu sedan %s"
+msgstr "STATISTIK: Säkerhetskopiering körs nu sedan %s"
 
 #: include/functions.php:365
 #, php-format
 msgid "WARN: Backup already running since %s"
-msgstr "VARNA: Säkerhetskopiering pågår redan sedan %s"
+msgstr "VARN: Säkerhetskopiering pågår redan sedan %s"
 
 #: include/functions.php:481
 #, php-format
@@ -688,12 +688,12 @@ msgstr "FEL: Misslyckades med att ansluta till enhet '%s' med anslutningstyp: %s
 #: include/functions.php:491
 #, php-format
 msgid "ERROR: Failed to download '%s' to '%s' via '%s'"
-msgstr "FEL: Misslyckades med att ladda ner '%s' till '%s' via '%s'"
+msgstr "FEL: Misslyckades med att hämta ner '%s' till '%s' via '%s'"
 
 #: include/functions.php:840
 #, php-format
 msgid "File '%s' failed to load"
-msgstr "Filen '%s' kunde inte laddas"
+msgstr "Filen '%s' kunde inte läsas in"
 
 #: include/functions.php:843
 #, php-format
@@ -748,7 +748,7 @@ msgstr "Konto: [redigera: %s]"
 
 #: router-accounts.php:212
 msgid "Account: [new]"
-msgstr "Konto: [ny]"
+msgstr "Konto: [nytt]"
 
 #: router-accounts.php:246
 msgid "Accounts"
@@ -756,7 +756,7 @@ msgstr "Konton"
 
 #: router-accounts.php:250
 msgid "Account Management"
-msgstr "Kontoinställningar"
+msgstr "Kontohantering"
 
 #: router-accounts.php:270
 msgid "No Router Accounts Found"
@@ -764,7 +764,7 @@ msgstr "Inga routerkonton hittades"
 
 #: router-backups.php:202 setup.php:480
 msgid "Router Backups"
-msgstr "Säkerhetskopiering av router"
+msgstr "Säkerhetskopior av router"
 
 #: router-backups.php:212 router-devices.php:559 router-devices.php:576
 msgid "Any"
@@ -800,7 +800,7 @@ msgstr "Värdnamn"
 
 #: router-backups.php:262 router-devices.php:630
 msgid "Either an IP address, or hostname.  If a hostname, it must be resolvable by either DNS, or from your hosts file."
-msgstr "Antingen en IP-adress eller ett värdnamn.  Om det är ett värdnamn måste det kunna lösas med antingen DNS eller från din hosts-fil."
+msgstr "Antingen en IP-adress eller värdnamn.  Om det är ett värdnamn måste det kunna slås upp med antingen DNS eller från din hosts-fil."
 
 #: router-backups.php:265 router-devices.php:633 router-devtypes.php:254
 msgid "ID"
@@ -832,7 +832,7 @@ msgstr "Den senaste säkerhetskopieringstiden för enheten"
 
 #: router-backups.php:289
 msgid "Last Change"
-msgstr "Sista förändringen"
+msgstr "Senaste ändringen"
 
 #: router-backups.php:292
 msgid "The last Change time of the device"
@@ -840,11 +840,11 @@ msgstr "Den senaste ändringstiden för enheten"
 
 #: router-backups.php:295 router-devices.php:698
 msgid "Changed By"
-msgstr "Ändrat Av"
+msgstr "Ändrad av"
 
 #: router-backups.php:298
 msgid "The last person to change the configuration of the device"
-msgstr "Den sista personen som kan ändra enhetens konfiguration"
+msgstr "Den senaste personen som ändrade enhetens konfiguration"
 
 #: router-backups.php:301
 msgid "Filename"
@@ -864,7 +864,7 @@ msgstr "Inga säkerhetskopior av routern hittades"
 
 #: router-compare.php:91
 msgid "Router Backup Comparison"
-msgstr "Jämförelse av routerns säkerhetskopiering"
+msgstr "Jämförelse av routerns säkerhetskopior"
 
 #: router-compare.php:100
 msgid "Diff Mode"
@@ -880,7 +880,7 @@ msgstr "Sida vid sida"
 
 #: router-compare.php:164
 msgid "Compare Output"
-msgstr "Jämför utgång"
+msgstr "Jämför utmatning"
 
 #: router-compare.php:241 router-compare.php:249
 msgid "There are no Changes"
@@ -898,7 +898,7 @@ msgstr "Felsökning för %s (%s)<br><br>"
 #: router-devices.php:198
 #, php-format
 msgid "DEBUG: Executing manual backup using '%s' with arguments '%s'"
-msgstr "DEBUG: Utför manuell säkerhetskopiering med '%s' med argumenten '%s'"
+msgstr "FELSÖK: Kör manuell säkerhetskopiering med '%s' med argumenten '%s'"
 
 #: router-devices.php:201
 msgid "Router Backup started.  Check the Date Backup column or the Cacti Log for completion status and timing"
@@ -926,7 +926,7 @@ msgstr "Inaktivera enhet(er)"
 
 #: router-devices.php:253
 msgid "You must select at least Router Device."
-msgstr "Du måste välja minst Router Device."
+msgstr "Du måste välja minst en routerenhet."
 
 #: router-devices.php:328
 #, php-format
@@ -955,7 +955,7 @@ msgstr "Aktiverad"
 
 #: router-devices.php:644
 msgid "Last Backup"
-msgstr "Senast backup"
+msgstr "Senaste säkerhetskopia"
 
 #: router-devices.php:653
 msgid "The device type of the device"
@@ -963,7 +963,7 @@ msgstr "Enhetens typ av enhet"
 
 #: router-devices.php:656
 msgid "Connect Type"
-msgstr "Anslut typ"
+msgstr "Anslutningstyp"
 
 #: router-devices.php:659
 msgid "The connection type for this device"
@@ -971,7 +971,7 @@ msgstr "Anslutningstyp för den här enheten"
 
 #: router-devices.php:662
 msgid "Configs"
-msgstr "Konfigs"
+msgstr "Konfigurationer"
 
 #: router-devices.php:664
 msgid "The number of configurations for this device"
@@ -987,7 +987,7 @@ msgstr "Nästa säkerhetskopia"
 
 #: router-devices.php:678
 msgid "Date Backup"
-msgstr "Datum Backup"
+msgstr "Datum för säkerhetskopia"
 
 #: router-devices.php:683
 msgid "Next Attempt"
@@ -995,7 +995,7 @@ msgstr "Nästa försök"
 
 #: router-devices.php:688
 msgid "Last Attempt"
-msgstr "Senaste försöket"
+msgstr "Senaste försök"
 
 #: router-devices.php:693
 msgid "Date Change"
@@ -1045,11 +1045,11 @@ msgstr "Anslut via Telnet"
 
 #: router-devices.php:798
 msgid "Trace Route"
-msgstr "Spåra rutt"
+msgstr "Spåra route"
 
 #: router-devices.php:801
 msgid "Router Debug Info"
-msgstr "Router felsökningsinfo"
+msgstr "Felsökningsinfo för router"
 
 #: router-devices.php:812
 #, php-format
@@ -1091,7 +1091,7 @@ msgstr "Användarprompt"
 
 #: router-devtypes.php:258
 msgid "Pass Prompt"
-msgstr "Passera uppmaning"
+msgstr "Lösenordsprompt"
 
 #: router-devtypes.php:260
 msgid "Version"
@@ -1099,11 +1099,11 @@ msgstr "Version"
 
 #: router-devtypes.php:263
 msgid "Confirm Prompt"
-msgstr "Bekräfta uppmaning"
+msgstr "Bekräftelseprompt"
 
 #: router-devtypes.php:264
 msgid "Check End In Config"
-msgstr "Kontrollera konfiguration av ändinställning"
+msgstr "Kontrollera slutet i konfiguration"
 
 #: router-devtypes.php:272
 msgid "Edit Device Type"
@@ -1120,7 +1120,7 @@ msgstr "Routerkonfigurationer"
 #: setup.php:413
 #, php-format
 msgid "DEBUG: Executing '%s' with arguments '%s'"
-msgstr "DEBUG: Körning av '%s' med argumenten '%s'"
+msgstr "FELSÖK: Kör '%s' med argumenten '%s'"
 
 #: setup.php:439
 msgid "Utilities"
@@ -1128,7 +1128,7 @@ msgstr "Tillbehör"
 
 #: setup.php:445
 msgid "Router Devices"
-msgstr "Router-enheter"
+msgstr "Routerenheter"
 
 #: setup.php:452 setup.php:487 setup.php:515
 msgid "(edit)"
@@ -1144,7 +1144,7 @@ msgstr "Visa felsökning"
 
 #: setup.php:508
 msgid "Router Accounts"
-msgstr "Router-konton"
+msgstr "Routerkonton"
 
 #: setup.php:529
 msgid "Router Compare"
