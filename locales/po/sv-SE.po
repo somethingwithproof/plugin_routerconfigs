@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-10-25 08:48+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <https://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: \nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2026-03-10 07:18+0000\nLast-Translator: Daniel Nylander <daniel@danielnylander.se>\nLanguage-Team: Swedish <https://translate.cacti.net/projects/cacti/routerconfigs/sv/>\nLanguage: sv-SE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -717,7 +717,7 @@ msgstr "Fil: %s/%s"
 
 #: router-accounts.php:130
 msgid "Click 'Continue' to delete the following account(s)."
-msgstr "Klicka på \"Fortsätt\" för att radera följande konto(n)."
+msgstr "Klicka på \"Fortsätt\" för att ta bort följande konto(n)."
 
 #: router-accounts.php:136 router-devices.php:231 router-devices.php:240
 #: router-devices.php:249 router-devtypes.php:119
@@ -906,11 +906,11 @@ msgstr "Säkerhetskopiering av routern har startat.  Kontrollera kolumnen Datum 
 
 #: router-devices.php:227
 msgid "Click 'Continue' to Delete the following device(s)."
-msgstr "Klicka på \"Fortsätt\" för att ta bort följande enhet(er)."
+msgstr "Klicka på \"Fortsätt\" för att radera följande enhet (er)."
 
 #: router-devices.php:236
 msgid "Click 'Continue' to Enable the following device(s)."
-msgstr "Klicka på \"Fortsätt\" för att aktivera följande enhet(er)."
+msgstr "Klicka på \"Fortsätt\" för att aktivera följande enhet (er)."
 
 #: router-devices.php:240
 msgid "Enable Device(s)"
@@ -918,7 +918,7 @@ msgstr "Aktivera enhet(er)"
 
 #: router-devices.php:245
 msgid "Click 'Continue' to Disable the following device(s)."
-msgstr "Klicka på \"Fortsätt\" för att inaktivera följande enhet(er)."
+msgstr "Klicka på \"Fortsätt\" för att inaktivera följande enhet (er)."
 
 #: router-devices.php:249
 msgid "Disable Device(s)"
