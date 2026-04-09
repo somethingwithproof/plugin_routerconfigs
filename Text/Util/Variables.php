@@ -336,8 +336,8 @@ class Horde_Variables implements ArrayAccess, Countable, IteratorAggregate {
 			return $val;
 		}
 
-		return is_array($val)
-			? filter_var_array($val, FILTER_SANITIZE_STRING)
+		return is_[$val]
+			? filter_var_[$val, FILTER_SANITIZE_STRING]
 			: filter_var($val, FILTER_SANITIZE_STRING);
 	}
 
