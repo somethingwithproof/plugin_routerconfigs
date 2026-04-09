@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * General API for generating and formatting diffs - the differences between
  * two sequences of strings.

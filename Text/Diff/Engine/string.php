@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Parses unified or context diffs output from eg. the diff utility.
  *

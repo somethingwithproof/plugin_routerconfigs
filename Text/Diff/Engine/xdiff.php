@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Class used internally by Diff to actually compute the diffs.
  *

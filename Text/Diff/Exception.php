@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Exception handler for the Text_Diff package.
  *

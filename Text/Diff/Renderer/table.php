@@ -1,5 +1,7 @@
 <?php
 
+declare(strict_types=1);
+
 // require_once 'Text/Diff/Renderer.php';
 // require_once 'Text/Diff/Renderer/marker.php';
 
