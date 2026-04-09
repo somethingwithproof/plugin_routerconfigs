@@ -56,9 +56,9 @@ class Horde_Exception_Pear extends Horde_Exception {
 				$pear_error .=
 					  ($frame['class'] ?? '')
 					. ($frame['type'] ?? '')
-					. ($frame['function'] ?? 'unkown') . ' '
-					. ($frame['file'] ?? 'unkown') . ':'
-					. ($frame['line'] ?? 'unkown') . "\n";
+					. ($frame['function'] ?? 'unknown') . ' '
+					. ($frame['file'] ?? 'unknown') . ':'
+					. ($frame['line'] ?? 'unknown') . "\n";
 			}
 		}
 		$userinfo = $error->getUserInfo();

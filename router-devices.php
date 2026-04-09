@@ -104,7 +104,7 @@ function plugin_routerconfigs_view_device_debug() {
 
 		form_alternate_row();
 		print '<td><h2>' . __('Debug for %s (%s)<br><br>', html_escape($device['hostname']), html_escape($device['ipaddress']), 'routerconfigs');
-		print '</h1><textarea rows=36 cols=120>';
+		print '</h2><textarea rows=36 cols=120>';
 		print html_escape(base64_decode($device['debug'], true));
 		print '</textarea></td></tr>';
 
