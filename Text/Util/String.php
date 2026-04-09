@@ -1,4 +1,6 @@
 <?php
+
+declare(strict_types=1);
 /**
  * Provides static methods for charset and locale safe string manipulation.
  *
