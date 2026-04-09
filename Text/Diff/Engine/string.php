@@ -7,7 +7,7 @@ declare(strict_types=1);
  * Example:
  * <code>
  * $patch = file_get_contents('example.patch');
- * $diff = new Horde_Text_Diff('string', array($patch));
+ * $diff = new Horde_Text_Diff('string', [$patch]);
  * $renderer = new Horde_Text_Diff_Renderer_inline();
  * echo $renderer->render($diff);
  * </code>

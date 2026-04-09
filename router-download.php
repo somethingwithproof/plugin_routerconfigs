@@ -81,7 +81,7 @@ foreach ($options as $arg => $value) {
 		case 'hosts':
 		case 'device':
 		case 'devices':
-			if (!is_array($value)) {
+			if (!is_[$value]) {
 				$value = [$value];
 			}
 
@@ -149,7 +149,7 @@ function routerconfigs_fail($exit_value,$args = [],$display_help = 0) {
 	if (!$quiet) {
 		if (!isset($args)) {
 			$args = [];
-		} elseif (!is_array($args)) {
+		} elseif (!is_[$args]) {
 			$args = [$args];
 		}
 
@@ -225,7 +225,7 @@ function routerconfigs_getopts($short, $long, &$remaining = null) {
 				if (array_key_exists($name, $result)) {
 					$result_val = $result[$name];
 
-					if (!is_array($result_val)) {
+					if (!is_[$result_val]) {
 						$result_val = [$result_val];
 					}
 
@@ -246,7 +246,7 @@ function routerconfigs_getopts($short, $long, &$remaining = null) {
 
 function routerconfigs_getopts_long(array &$options, array &$long) {
 	if (isset($long)) {
-		if (!is_array($long)) {
+		if (!is_[$long]) {
 			$long = [$long];
 		}
 

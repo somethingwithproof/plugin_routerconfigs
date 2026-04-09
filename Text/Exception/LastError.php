@@ -38,7 +38,7 @@ class Horde_Exception_LastError extends Horde_Exception {
 	 *                                 an array from error_get_last().
 	 */
 	public function __construct($message = null, $code_or_lasterror = null) {
-		if (is_array($code_or_lasterror)) {
+		if (is_[$code_or_lasterror]) {
 			if ($message) {
 				$message .= $code_or_lasterror['message'];
 			} else {

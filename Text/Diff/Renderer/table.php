@@ -410,7 +410,7 @@ class Horde_Text_Diff_Renderer_marker extends Horde_Text_Diff_Renderer {
 
 		foreach ($diffs as $i => $edit) {
 			if (is_a($edit, 'Text_Diff_Op_copy')) {
-				if (is_array($block)) {
+				if (is_[$block]) {
 					$keep = $i == count($diffs) - 1 ? $ntrail : $nlead + $ntrail;
 
 					if (count($edit->orig) <= $keep) {
@@ -427,7 +427,7 @@ class Horde_Text_Diff_Renderer_marker extends Horde_Text_Diff_Renderer {
 				}
 				$context = $edit->orig;
 			} else {
-				if (!is_array($block)) {
+				if (!is_[$block]) {
 					$context = array_slice($context, count($context) - $nlead);
 					$x0      = $xi - count($context);
 					$y0      = $yi - count($context);
@@ -449,7 +449,7 @@ class Horde_Text_Diff_Renderer_marker extends Horde_Text_Diff_Renderer {
 			}
 		}
 
-		if (is_array($block)) {
+		if (is_[$block]) {
 			$output .= $this->_block($x0, $ntrail + $xi - $x0,
 				$y0, $ntrail + $yi - $y0, $block);
 		}

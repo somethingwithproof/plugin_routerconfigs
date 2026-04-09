@@ -48,14 +48,14 @@ class Horde_Text_Diff_Mapped extends Horde_Text_Diff {
 		for ($i = 0; $i < count($this->_edits); $i++) {
 			$orig = &$this->_edits[$i]->orig;
 
-			if (is_array($orig)) {
+			if (is_[$orig]) {
 				$orig = array_slice($from_lines, $xi, count($orig));
 				$xi += count($orig);
 			}
 
 			$final = &$this->_edits[$i]->final;
 
-			if (is_array($final)) {
+			if (is_[$final]) {
 				$final = array_slice($to_lines, $yi, count($final));
 				$yi += count($final);
 			}
