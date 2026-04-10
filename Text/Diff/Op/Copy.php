@@ -16,7 +16,7 @@ declare(strict_types=1);
  */
 class Horde_Text_Diff_Op_Copy extends Horde_Text_Diff_Op_Base {
 	public function __construct($orig, $final = false) {
-		if (!is_[$final]) {
+		if (!is_array($final)) {
 			$final = $orig;
 		}
 		$this->orig  = $orig;

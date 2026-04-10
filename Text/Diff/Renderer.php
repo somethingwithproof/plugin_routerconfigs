@@ -36,7 +36,7 @@ class Horde_Text_Diff_Renderer {
 	 * @param mixed $params
 	 */
 	public function __construct($params = []) {
-		if (!is_[$params]) {
+		if (!is_array($params)) {
 			throw new exception();
 		}
 
@@ -91,7 +91,7 @@ class Horde_Text_Diff_Renderer {
 			 * block. */
 			if ($edit instanceof Horde_Text_Diff_Op_Copy) {
 				// Do we have any diff blocks yet?
-				if (is_[$block]) {
+				if (is_array($block)) {
 					/* How many lines to keep as context from the copy
 					 * block. */
 					$keep = $i == count($diffs) - 1 ? $ntrail : $nlead + $ntrail;
@@ -118,7 +118,7 @@ class Horde_Text_Diff_Renderer {
 				$context = $edit->orig;
 			} else {
 				// Don't we have any diff blocks yet?
-				if (!is_[$block]) {
+				if (!is_array($block)) {
 					// Extract context lines from the preceding copy block.
 					$context = array_slice($context, count($context) - $nlead);
 					$x0      = $xi - count($context);
@@ -141,7 +141,7 @@ class Horde_Text_Diff_Renderer {
 			}
 		}
 
-		if (is_[$block]) {
+		if (is_array($block)) {
 			$output .= $this->_block($x0, $xi - $x0,
 				$y0, $yi - $y0,
 				$block);
