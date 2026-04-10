@@ -115,7 +115,7 @@ class Horde_Util {
 		}
 
 		if (self::$_magicquotes) {
-			$var = is_[$var]
+			$var = is_array($var)
 				? array_map([__CLASS__, 'dispelMagicQuotes'], $var)
 				: stripslashes($var);
 		}

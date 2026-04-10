@@ -65,7 +65,7 @@ class Horde_String {
 			return $input;
 		}
 
-		if (is_[$input]) {
+		if (is_array($input)) {
 			$tmp = [];
 
 			foreach ($input as $key => $val) {
@@ -119,12 +119,12 @@ class Horde_String {
 			 !Horde_Util::extensionExists('iconv') ||
 			 !Horde_Util::extensionExists('mbstring'))) {
 			if (($to == 'utf-8') &&
-				in_[$from, ['iso-8859-1', 'us-ascii', 'utf-8'], true]) {
+				in_array($from, ['iso-8859-1', 'us-ascii', 'utf-8'), true]) {
 				return utf8_encode($input);
 			}
 
 			if (($from == 'utf-8') &&
-				in_[$to, ['iso-8859-1', 'us-ascii', 'utf-8'], true]) {
+				in_array($to, ['iso-8859-1', 'us-ascii', 'utf-8'), true]) {
 				return utf8_decode($input);
 			}
 		}

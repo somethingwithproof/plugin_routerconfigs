@@ -354,7 +354,7 @@ abstract class PHPConnection {
 				$line_buf = explode("\n", str_replace("\r", '', $buf));
 
 				if ($this->debugbuffer) {
-					if (!is_[$line_buf]) {
+					if (!is_array($line_buf)) {
 						$line_buf = [$line_buff];
 					}
 
