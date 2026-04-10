@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * The Horde_Array:: class provides various methods for array manipulation.
  *

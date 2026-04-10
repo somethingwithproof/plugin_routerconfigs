@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * A class to render Diffs in different formats.
  *

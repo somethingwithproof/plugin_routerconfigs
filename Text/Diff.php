@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * General API for generating and formatting diffs - the differences between
  * two sequences of strings.
@@ -44,7 +43,7 @@ class Horde_Text_Diff {
 		$class       = 'Horde_Text_Diff_Engine_' . $engine;
 		$diff_engine = new $class();
 
-		$this->_edits = call_user_func_[[$diff_engine, 'diff'], $params];
+		$this->_edits = call_user_func_array([$diff_engine, 'diff'], $params);
 	}
 
 	/**

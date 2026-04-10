@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * Helper class for sorting arrays on arbitrary criteria for usort/uasort.
  *

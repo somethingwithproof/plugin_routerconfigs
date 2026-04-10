@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * The Horde_Util:: class provides generally useful methods.
  *
