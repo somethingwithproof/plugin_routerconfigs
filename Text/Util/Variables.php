@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * Copyright 2009-2017 Horde LLC (http://www.horde.org/)
  *
@@ -337,7 +336,7 @@ class Horde_Variables implements ArrayAccess, Countable, IteratorAggregate {
 		}
 
 		return is_array($val)
-			? filter_var_[$val, FILTER_SANITIZE_STRING]
+			? filter_var_array($val, FILTER_SANITIZE_STRING)
 			: filter_var($val, FILTER_SANITIZE_STRING);
 	}
 

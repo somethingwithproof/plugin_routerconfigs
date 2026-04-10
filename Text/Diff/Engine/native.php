@@ -1,6 +1,5 @@
 <?php
 
-declare(strict_types=1);
 /**
  * Class used internally by Horde_Text_Diff to actually compute the diffs.
  *
