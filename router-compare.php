@@ -139,28 +139,28 @@ form_alternate_row();
 print "<td width='50%'><select id='device1' name='device1' onChange='changeDeviceA()'>";
 
 foreach ($devices as $f) {
-	print '<option value=' . $f['id'] . ($device1 == $f['id'] ? ' selected' : '') . '>' . $f['directory'] . '/' . $f['hostname'] . '</option>';
+	print '<option value="' . $f['id'] . '"' . ($device1 == $f['id'] ? ' selected' : '') . '>' . html_escape($f['directory'] . '/' . $f['hostname']) . '</option>';
 }
 print '</select><br>';
 
 print "<select id='file1' name='file1' onChange='changeFileForm()'><option value='0'></option>";
 
 foreach ($files1 as $f) {
-	print '<option value=' . $f['id'] . ($file1 == $f['id'] ? ' selected' : '') . '>' . $f['filename'] . '</option>';
+	print '<option value="' . $f['id'] . '"' . ($file1 == $f['id'] ? ' selected' : '') . '>' . html_escape($f['filename']) . '</option>';
 }
 print '</select></td>';
 
 print "<td width='50%'><select id='device2' name='device2' onChange='changeDeviceB()'>";
 
 foreach ($devices as $f) {
-	print '<option value="' . $f['id'] . ($device2 == $f['id'] ? '" selected' : '"') . '>' . $f['directory'] . '/' . $f['hostname'] . '</option>';
+	print '<option value="' . $f['id'] . '"' . ($device2 == $f['id'] ? ' selected' : '') . '>' . html_escape($f['directory'] . '/' . $f['hostname']) . '</option>';
 }
 print '</select><br>';
 
-print "<select id='file2' name='file2' onChange='changeFileForm()'><option value=0></option>";
+print "<select id='file2' name='file2' onChange='changeFileForm()'><option value='0'></option>";
 
 foreach ($files2 as $f) {
-	print '<option value="' . $f['id'] . ($file2 == $f['id'] ? '" selected' : '"') . '>' . $f['filename'] . '</option>';
+	print '<option value="' . $f['id'] . '"' . ($file2 == $f['id'] ? ' selected' : '') . '>' . html_escape($f['filename']) . '</option>';
 }
 print '</select></td></tr>';
 
@@ -174,10 +174,14 @@ if (!empty($file1) && !empty($file2)) {
 	$device2 = db_fetch_row_prepared('SELECT * FROM plugin_routerconfigs_backups WHERE id = ?', [$file2]);
 
 	if (isset($device1['id'])) {
-		$filepath1 = plugin_routerconfigs_dir($device1['directory']) . $device1['filename'];
+		$filepath1 = plugin_routerconfigs_dir($device1['directory']) . basename($device1['filename']);
+		$resolved1 = realpath($filepath1);
+		$basedir1  = realpath(plugin_routerconfigs_dir($device1['directory']));
 
-		if (file_exists($filepath1)) {
-			$lines1 = @file($filepath1, FILE_IGNORE_NEW_LINES);
+		if ($resolved1 === false || $basedir1 === false || strpos($resolved1, $basedir1) !== 0) {
+			$lines1 = ['File path validation failed for backup id ' . $file1];
+		} elseif (file_exists($resolved1)) {
+			$lines1 = @file($resolved1, FILE_IGNORE_NEW_LINES);
 
 			if ($lines1 === false) {
 				$lines1 = ['File \'' . $filepath1 . '\' (' . $file1 . ' ) failed to load'];
@@ -190,10 +194,14 @@ if (!empty($file1) && !empty($file2)) {
 	}
 
 	if (isset($device2['id'])) {
-		$filepath2 = plugin_routerconfigs_dir($device2['directory']) . $device2['filename'];
+		$filepath2 = plugin_routerconfigs_dir($device2['directory']) . basename($device2['filename']);
+		$resolved2 = realpath($filepath2);
+		$basedir2  = realpath(plugin_routerconfigs_dir($device2['directory']));
 
-		if (file_exists($filepath2)) {
-			$lines2 = @file($filepath2, FILE_IGNORE_NEW_LINES);
+		if ($resolved2 === false || $basedir2 === false || strpos($resolved2, $basedir2) !== 0) {
+			$lines2 = ['File path validation failed for backup id ' . $file2];
+		} elseif (file_exists($resolved2)) {
+			$lines2 = @file($resolved2, FILE_IGNORE_NEW_LINES);
 
 			if ($lines2 === false) {
 				$lines2 = ['File \'' . $filepath2 . '\' (' . $file2 . ' ) failed to load'];
@@ -202,7 +210,7 @@ if (!empty($file1) && !empty($file2)) {
 			$lines2 = ['File \'' . $filepath2 . '\' (' . $file2 . ' ) missing'];
 		}
 	} else {
-		$lines2 = ['Unable to find backup id ' . $file1];
+		$lines2 = ['Unable to find backup id ' . $file2];
 	}
 
 	if (cacti_version_compare(CACTI_VERSION, '1.2.23', '<')) {
