@@ -87,7 +87,7 @@ function actions_accounts() {
 		if ($selected_items != false) {
 			if (get_nfilter_request_var('drp_action') == RCONFIG_ACCOUNT_DELETE) {
 				for ($i = 0; $i < count($selected_items); $i++) {
-					db_execute('DELETE FROM plugin_routerconfigs_accounts WHERE id = ' . $selected_items[$i]);
+					db_execute_prepared('DELETE FROM plugin_routerconfigs_accounts WHERE id = ?', array($selected_items[$i]));
 				}
 			}
 		}
@@ -107,7 +107,7 @@ function actions_accounts() {
 			input_validate_input_number($matches[1]);
 			// ====================================================
 
-			$account_list .= '<li>' . html_escape(db_fetch_cell('SELECT name FROM plugin_routerconfigs_accounts WHERE id=' . $matches[1])) . '</li>';
+			$account_list .= '<li>' . html_escape(db_fetch_cell_prepared('SELECT name FROM plugin_routerconfigs_accounts WHERE id = ?', array($matches[1]))) . '</li>';
 			$account_array[] = $matches[1];
 		}
 	}
