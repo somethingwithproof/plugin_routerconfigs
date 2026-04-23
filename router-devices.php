@@ -424,7 +424,9 @@ function show_devices() {
 
 	$sql_where  = '';
 	$sql_params = [];
-	$sql_limit  = 'LIMIT ' . $num_rows * ($page - 1) . ', ' . $num_rows;
+	$sql_limit  = 'LIMIT ?, ?';
+	$sql_params[] = $num_rows * ($page - 1);
+	$sql_params[] = $num_rows;
 	$sql_order  = get_order_string();
 
 	if (get_request_var('account') != '-1') {
