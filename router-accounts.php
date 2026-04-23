@@ -209,7 +209,7 @@ function edit_accounts() {
 	$account = [];
 
 	if (!isempty_request_var('id')) {
-		$account             = db_fetch_row('SELECT * FROM plugin_routerconfigs_accounts WHERE id=' . get_request_var('id'), false);
+		$account             = db_fetch_row_prepared('SELECT * FROM plugin_routerconfigs_accounts WHERE id = ?', [get_request_var('id')]);
 		$account['password'] = '';
 		$header_label        = __('Account: [edit: %s]', $account['name'], 'routerconfigs');
 	} else {
@@ -240,9 +240,10 @@ function show_accounts() {
 	load_current_session_value('page', 'sess_wmi_accounts_current_page', '1');
 	$num_rows = 30;
 
-	$result = db_fetch_assoc('SELECT *
+	$result = db_fetch_assoc_prepared('SELECT *
 		FROM plugin_routerconfigs_accounts
-		LIMIT ' . ($num_rows * (get_request_var('page') - 1)) . ", $num_rows");
+		LIMIT ?, ?',
+		[($num_rows * (get_request_var('page') - 1)), $num_rows]);
 
 	$total_rows = db_fetch_cell('SELECT COUNT(*)
 		FROM plugin_routerconfigs_accounts');
