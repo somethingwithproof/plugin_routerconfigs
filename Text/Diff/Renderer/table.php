@@ -1,6 +1,5 @@
 <?php
 
-
 // require_once 'Text/Diff/Renderer.php';
 // require_once 'Text/Diff/Renderer/marker.php';
 
