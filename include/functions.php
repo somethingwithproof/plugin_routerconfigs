@@ -145,7 +145,7 @@ function plugin_routerconfigs_download($retry = false, $force = false, $devices 
 
 			if ($manual) {
 				$filter_devices = array_map('intval', $filter_devices);
-				$sqlwhere = 'AND id IN (' . implode(',', $filter_devices) . ')';
+				$sqlwhere       = 'AND id IN (' . implode(',', $filter_devices) . ')';
 			} elseif (!$force) {
 				$scheduled = (!$force) || $simulate;
 

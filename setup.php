@@ -82,7 +82,7 @@ function routerconfigs_check_upgrade() {
 			api_plugin_register_realm('routerconfigs', 'router-devices.php,router-accounts.php,router-backups.php,router-compare.php', 'Plugin -> Router Configs', 1);
 
 			// get the realm id's and change from old to new
-			$user  = db_fetch_cell_prepared("SELECT id FROM plugin_realms WHERE file=?", array('router-devices.php'));
+			$user  = db_fetch_cell_prepared('SELECT id FROM plugin_realms WHERE file=?', ['router-devices.php']);
 
 			if ($user > 0) {
 				$users = db_fetch_assoc_prepared('SELECT user_id FROM user_auth_realm WHERE realm_id = ?', [86]);
