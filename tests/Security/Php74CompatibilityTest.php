@@ -13,14 +13,14 @@
  */
 
 describe('PHP 7.4 compatibility in routerconfigs', function () {
-	$files = array(
+	$files = [
 		'router-accounts.php',
 		'router-backups.php',
 		'router-compare.php',
 		'router-devices.php',
 		'routerconfigs.php',
 		'setup.php',
-	);
+	];
 
 	it('does not use str_contains (PHP 8.0)', function () use ($files) {
 		foreach ($files as $relativeFile) {
