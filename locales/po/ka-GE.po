@@ -4,7 +4,7 @@
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
-msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2025-12-10 15:18+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
+msgstr "Project-Id-Version: Cacti\nReport-Msgid-Bugs-To: developers@cacti.net\nPOT-Creation-Date: 2023-12-12 22:41-0600\nPO-Revision-Date: 2026-08-04 06:18+0000\nLast-Translator: Ekaterine papava <papava.e@gtu.ge>\nLanguage-Team: Georgian <https://translate.cacti.net/projects/cacti/routerconfigs/ka/>\nLanguage: ka-GE\nMIME-Version: 1.0\nContent-Type: text/plain; charset=UTF-8\nContent-Transfer-Encoding: 8bit\nPlural-Forms: nplurals=2; plural=n != 1;\nX-Generator: Weblate 5.11.4\n"
 
 #: include/arrays.php:39 include/arrays.php:44 include/arrays.php:50
 msgid "Delete"
@@ -213,7 +213,7 @@ msgstr "პაროლი"
 
 #: include/arrays.php:140
 msgid "The password used for authentication."
-msgstr ""
+msgstr "პაროლი ავთენტიკაციისთვის."
 
 #: include/arrays.php:148
 msgid "Enable Password"
@@ -221,7 +221,7 @@ msgstr "პაროლის ჩართვა"
 
 #: include/arrays.php:149
 msgid "Your Enable Password, if required."
-msgstr ""
+msgstr "თქვენი Enable-ის პაროლი, თუ საჭიროა."
 
 #: include/arrays.php:164
 msgid "Enable Device"
@@ -321,7 +321,7 @@ msgstr ""
 
 #: include/arrays.php:261
 msgid "Name of this device type."
-msgstr ""
+msgstr "ამ მოწყობილობის ტიპის სახელი."
 
 #: include/arrays.php:276
 msgid "Username Prompt"
@@ -389,11 +389,11 @@ msgstr ""
 
 #: include/arrays.php:338
 msgid "Check End in Config"
-msgstr ""
+msgstr "შეამოწმეთ შეყვანის ბოლო კონფიგურაციაში"
 
 #: include/arrays.php:339
 msgid "Check end in config?"
-msgstr ""
+msgstr "შემოწმდეს შეყვანის ბოლოს კონფიგურაცია?"
 
 #: include/arrays.php:369
 msgid "Any Key prompt"
@@ -425,7 +425,7 @@ msgstr "ზედა ჩანართი"
 
 #: include/arrays.php:411
 msgid "Close without exit"
-msgstr ""
+msgstr "დახურვა გასვლის გარეშე"
 
 #: include/arrays.php:412
 msgid "If ticked, when closing down the device connection, no 'exit' command is issued"
@@ -441,7 +441,7 @@ msgstr ""
 
 #: include/arrays.php:421
 msgid "Assume all devices elevated"
-msgstr ""
+msgstr "ყველა მოწყობილობის აწეულად ჩათვლა"
 
 #: include/arrays.php:422
 msgid "Whether to assume all devices are elevated"
@@ -509,7 +509,7 @@ msgstr ""
 
 #: include/arrays.php:479
 msgid "TFTP Backup Directory Path"
-msgstr ""
+msgstr "TFTP მარქაფის საქაღალდის ბილიკი"
 
 #: include/arrays.php:480
 msgid "The path to where your Configs will be backed up, it must be the path that the local TFTP Server writes to."
@@ -517,7 +517,7 @@ msgstr ""
 
 #: include/arrays.php:487
 msgid "Archive Directory Path"
-msgstr ""
+msgstr "არქივის საქაღალდის ბილიკი"
 
 #: include/arrays.php:488
 msgid "The path to where your Configs will be archived (moved from TFTP directory)"
@@ -574,7 +574,7 @@ msgstr "შედარება"
 #: include/functions.php:64
 #, php-format
 msgid "Technical Support [ %s ]"
-msgstr ""
+msgstr "ტექნიკური მხარდაჭერა [ %s]"
 
 #: include/functions.php:85
 #, php-format
@@ -592,11 +592,11 @@ msgstr ""
 
 #: include/functions.php:113
 msgid "NOTICE: Starting automatic retry"
-msgstr ""
+msgstr "გაფრთხილება: ავტომატური თავიდან ცდის დასაწყისი"
 
 #: include/functions.php:115
 msgid "NOTICE: Starting automatic backup"
-msgstr ""
+msgstr "გაფრთხილება: ავტომატური მარქაფის დასაწყისი"
 
 #: include/functions.php:130
 msgid "FATAL: TFTP Backup Path is not set or is not a directory"
@@ -614,12 +614,12 @@ msgstr ""
 #: include/functions.php:204
 #, php-format
 msgid "%s devices backed up successfully."
-msgstr ""
+msgstr "%s მოწყობილობის მარქაფი წარმატებულია."
 
 #: include/functions.php:205
 #, php-format
 msgid "%s devices failed to backup."
-msgstr ""
+msgstr "%s მოწყობილობის მარქაფი ჩავარდა."
 
 #: include/functions.php:207
 #, php-format
@@ -693,17 +693,17 @@ msgstr ""
 #: include/functions.php:840
 #, php-format
 msgid "File '%s' failed to load"
-msgstr ""
+msgstr "ფაილის '%s' ჩატვირთვა ჩავარდა"
 
 #: include/functions.php:843
 #, php-format
 msgid "File '%s' was not found"
-msgstr ""
+msgstr "ფაილი '%s' აღმოჩენილი არაა"
 
 #: include/functions.php:854
 #, php-format
 msgid "Router Config for %s (%s)"
-msgstr ""
+msgstr "რაუტერის კონფიგურაცია %s-ისთვის (%s)"
 
 #: include/functions.php:855
 #, php-format
@@ -760,7 +760,7 @@ msgstr "ანგარიშების მართვა"
 
 #: router-accounts.php:270
 msgid "No Router Accounts Found"
-msgstr ""
+msgstr "რაუტერის ანგარიშები აღმოჩენილი არაა"
 
 #: router-backups.php:202 setup.php:480
 msgid "Router Backups"
@@ -860,7 +860,7 @@ msgstr "კონფიგურაციის ნახვა"
 
 #: router-backups.php:351
 msgid "No Router Backups Found"
-msgstr ""
+msgstr "რაუტერის მარქაფები აღმოჩენილი არაა"
 
 #: router-compare.php:91
 msgid "Router Backup Comparison"
@@ -876,7 +876,7 @@ msgstr "ხაზში"
 
 #: router-compare.php:105
 msgid "Side by Side"
-msgstr ""
+msgstr "გვერდიგვერდ"
 
 #: router-compare.php:164
 msgid "Compare Output"
@@ -884,7 +884,7 @@ msgstr "გამოტანის შედარება"
 
 #: router-compare.php:241 router-compare.php:249
 msgid "There are no Changes"
-msgstr ""
+msgstr "ცვლილებების გარეშე"
 
 #: router-compare.php:259
 msgid "Error, you must have backups for each device."
@@ -893,7 +893,7 @@ msgstr ""
 #: router-devices.php:106
 #, php-format
 msgid "Debug for %s (%s)<br><br>"
-msgstr ""
+msgstr "%s-ის (%s) გამართვა<br><br>"
 
 #: router-devices.php:198
 #, php-format
@@ -1062,7 +1062,7 @@ msgstr "მიმდინარე"
 
 #: router-devices.php:827
 msgid "No Router Devices Found"
-msgstr ""
+msgstr "რაუტერი მოწყობილობები აღმოჩენილი არაა"
 
 #: router-devtypes.php:113
 msgid "When you click 'Continue', the following device(s) will be deleted."
@@ -1079,7 +1079,7 @@ msgstr "მოთხოვნა [ახალი]"
 
 #: router-devtypes.php:247
 msgid "View Router Device Types"
-msgstr ""
+msgstr "რაუტერის მოწყობილობის ტიპების ნახვა"
 
 #: router-devtypes.php:256
 msgid "Type"
@@ -1103,7 +1103,7 @@ msgstr "დასტურის კითხვა"
 
 #: router-devtypes.php:264
 msgid "Check End In Config"
-msgstr ""
+msgstr "შეამოწმეთ შეყვანის ბოლო კონფიგურაციაში"
 
 #: router-devtypes.php:272
 msgid "Edit Device Type"
@@ -1111,7 +1111,7 @@ msgstr "მოწყობილობის ტიპის ჩასწორ�
 
 #: router-devtypes.php:289
 msgid "No Router Device Types Found"
-msgstr ""
+msgstr "რაუტერის მოწყობილობის ტიპები აღმოჩენილი არაა"
 
 #: setup.php:42 setup.php:424 setup.php:439
 msgid "Router Configs"
