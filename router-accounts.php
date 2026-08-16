@@ -107,7 +107,7 @@ function actions_accounts() {
 			input_validate_input_number($matches[1]);
 			// ====================================================
 
-			$account_list .= '<li>' . db_fetch_cell('SELECT name FROM plugin_routerconfigs_accounts WHERE id=' . $matches[1]) . '</li>';
+			$account_list .= '<li>' . html_escape(db_fetch_cell('SELECT name FROM plugin_routerconfigs_accounts WHERE id=' . $matches[1])) . '</li>';
 			$account_array[] = $matches[1];
 		}
 	}
@@ -146,7 +146,7 @@ function actions_accounts() {
 		<td class='saveRow'>
 			<input type='hidden' name='action' value='actions'>
 			<input type='hidden' name='selected_items' value='" . (isset($account_array) ? serialize($account_array) : '') . "'>
-			<input type='hidden' name='drp_action' value='" . get_nfilter_request_var('drp_action') . "'>
+			<input type='hidden' name='drp_action' value='" . html_escape(get_nfilter_request_var('drp_action')) . "'>
 			$save_html
 		</td>
 	</tr>";
