@@ -97,7 +97,7 @@ function routerconfigs_check_upgrade() {
 						db_execute_prepared('DELETE FROM user_auth_realm
 							WHERE user_id = ?
 							AND realm_id = ?',
-							[(int) $u['user_id'], (int) $user]);
+							[(int) $u['user_id'], 86]);
 					}
 				}
 			}

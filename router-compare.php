@@ -176,9 +176,12 @@ if (!empty($file1) && !empty($file2)) {
 		$resolved1 = realpath($filepath1);
 		$basedir1  = realpath(plugin_routerconfigs_dir($device1['directory']));
 
-		if ($resolved1 === false || $basedir1 === false || strpos($resolved1, $basedir1) !== 0) {
+		if ($basedir1 === false
+			|| ($resolved1 !== false
+				&& strpos($resolved1, rtrim($basedir1, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR) !== 0)
+		) {
 			$lines1 = ['File path validation failed for backup id ' . $file1];
-		} elseif (file_exists($resolved1)) {
+		} elseif ($resolved1 !== false && file_exists($resolved1)) {
 			$lines1 = @file($resolved1, FILE_IGNORE_NEW_LINES);
 
 			if ($lines1 === false) {
@@ -196,9 +199,12 @@ if (!empty($file1) && !empty($file2)) {
 		$resolved2 = realpath($filepath2);
 		$basedir2  = realpath(plugin_routerconfigs_dir($device2['directory']));
 
-		if ($resolved2 === false || $basedir2 === false || strpos($resolved2, $basedir2) !== 0) {
+		if ($basedir2 === false
+			|| ($resolved2 !== false
+				&& strpos($resolved2, rtrim($basedir2, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR) !== 0)
+		) {
 			$lines2 = ['File path validation failed for backup id ' . $file2];
-		} elseif (file_exists($resolved2)) {
+		} elseif ($resolved2 !== false && file_exists($resolved2)) {
 			$lines2 = @file($resolved2, FILE_IGNORE_NEW_LINES);
 
 			if ($lines2 === false) {

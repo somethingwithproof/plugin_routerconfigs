@@ -916,9 +916,12 @@ function plugin_routerconfigs_view_device_config($backup_id = 0, $device_id = 0,
 		$resolved = realpath($filepath);
 		$basedir  = realpath(plugin_routerconfigs_dir($device['directory']));
 
-		if ($resolved === false || $basedir === false || strpos($resolved, $basedir) !== 0) {
+		if ($basedir === false
+			|| ($resolved !== false
+				&& strpos($resolved, rtrim($basedir, DIRECTORY_SEPARATOR) . DIRECTORY_SEPARATOR) !== 0)
+		) {
 			$lines = [__('File path validation failed', 'routerconfigs')];
-		} elseif (file_exists($resolved)) {
+		} elseif ($resolved !== false && file_exists($resolved)) {
 			$lines = @file($resolved);
 
 			if ($lines === false) {
