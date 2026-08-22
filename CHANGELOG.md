@@ -1,4 +1,6 @@
 # ChangeLog
+--- develop ---
+* issue: Defense-in-depth hardening for plugin_routerconfigs (PR #151)
 
 --- 1.7 ---
 
