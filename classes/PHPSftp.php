@@ -97,7 +97,7 @@ class PHPSftp extends PHPConnection implements ShellSsh {
 			return false;
 		}
 
-		$sftpfile = "ssh.sftp://$sftp$sftp_source";
+		$sftpfile = 'ssh2.sftp://' . intval($sftp) . $sftp_source;
 
 		$stream = fopen($sftpfile, 'r');
 
@@ -107,7 +107,7 @@ class PHPSftp extends PHPConnection implements ShellSsh {
 			return false;
 		}
 
-		$contents = fread($stream, filesize($sftpfile));
+		$contents = stream_get_contents($stream);
 
 		if (!$contents) {
 			$this->Log("DEBUG: Failed to download file '$sftpfile'");
@@ -115,7 +115,7 @@ class PHPSftp extends PHPConnection implements ShellSsh {
 			return false;
 		}
 
-		if (!file_put_contents($scp_dest, $contents)) {
+		if (!file_put_contents($sftp_dest, $contents)) {
 			$this->Log("DEBUG: Failed to write to file '$sftp_dest'");
 
 			return false;
