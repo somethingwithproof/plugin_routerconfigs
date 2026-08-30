@@ -437,7 +437,10 @@ abstract class PHPConnection {
 				}
 			}
 
-			$s = socket_get_status($this->stream);
+			if ($buf === false) {
+				// Nothing to read yet; yield briefly instead of busy-waiting.
+				usleep(2000);
+			}
 
 			if ((microtime(true) - $time_start) > $this->timeout) {
 				$this->Log("DEBUG: Timeout of {$this->timeout} seconds has been reached");

@@ -467,6 +467,12 @@ $rc_settings = [
 		'max_length'    => 255,
 		'size'          => '50',
 	],
+	'routerconfigs_verify_hostkey' => [
+		'friendly_name' => __('Verify SSH Host Keys', 'routerconfigs'),
+		'description'   => __('Record each device SSH host key on first connect and refuse to connect if it later changes, protecting against man-in-the-middle capture of device credentials. After a legitimate key change, clear that device stored fingerprint.', 'routerconfigs'),
+		'method'        => 'checkbox',
+		'default'       => ''
+	],
 	'routerconfigs_tftpserver' => [
 		'friendly_name' => __('TFTP Server IP', 'routerconfigs'),
 		'description'   => __('Must be an IP pointing to your Cacti server.', 'routerconfigs'),

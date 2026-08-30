@@ -791,6 +791,60 @@ function plugin_routerconfigs_encode($info) {
 	return $crypt;
 }
 
+/**
+ * Verify a device's SSH host key against the fingerprint recorded on first use.
+ *
+ * When the routerconfigs_verify_hostkey option is enabled, the first successful
+ * connection records the device's key fingerprint; a later change is treated as
+ * a possible man-in-the-middle and the connection is refused before any
+ * credential is sent. A legitimate key change (for example a device reinstall)
+ * is resolved by clearing the stored fingerprint for that device. The check is
+ * skipped, and the connection allowed, when the option is off or the storage
+ * column is not yet present, so it never breaks an existing install.
+ *
+ * @param int|string   $device_id   The routerconfigs device id.
+ * @param string|false $fingerprint The key fingerprint from ssh2_fingerprint().
+ *
+ * @return bool True to proceed with authentication, false to refuse.
+ */
+function plugin_routerconfigs_verify_ssh_hostkey($device_id, $fingerprint) {
+	if (read_config_option('routerconfigs_verify_hostkey') != 'on') {
+		return true;
+	}
+
+	if ($fingerprint === '' || $fingerprint === false || $fingerprint === null) {
+		plugin_routerconfigs_log('ERROR: No SSH host key fingerprint available; refusing to send credentials');
+
+		return false;
+	}
+
+	if (!db_column_exists('plugin_routerconfigs_devices', 'ssh_fingerprint')) {
+		return true;
+	}
+
+	$stored = db_fetch_cell_prepared('SELECT ssh_fingerprint
+		FROM plugin_routerconfigs_devices
+		WHERE id = ?',
+		[$device_id]);
+
+	if ($stored === null || $stored === '' || $stored === false) {
+		db_execute_prepared('UPDATE plugin_routerconfigs_devices
+			SET ssh_fingerprint = ?
+			WHERE id = ?',
+			[$fingerprint, $device_id]);
+
+		return true;
+	}
+
+	if (hash_equals((string) $stored, (string) $fingerprint)) {
+		return true;
+	}
+
+	plugin_routerconfigs_log("ERROR: SSH host key for device $device_id changed (possible MITM); refusing. Clear the stored fingerprint after a legitimate key change.");
+
+	return false;
+}
+
 function plugin_routerconfigs_messagetype($message) {
 	$types   = ['ERROR:', 'FATAL:', 'STATS:', 'WARNING:', 'NOTICE:', 'DEBUG:'];
 	$typepos = [];

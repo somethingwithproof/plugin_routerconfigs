@@ -64,6 +64,9 @@ class PHPSftp extends PHPConnection implements ShellSsh {
 		if (strlen($this->ip)) {
 			if (!$this->connection = @ssh2_connect($this->server, 22)) {
 				$rv = 1;
+			} elseif (!plugin_routerconfigs_verify_ssh_hostkey($this->device['id'], @ssh2_fingerprint($this->connection, SSH2_FINGERPRINT_SHA1 | SSH2_FINGERPRINT_HEX))) {
+				$this->Log('ERROR: SSH host key verification failed for ' . $this->server);
+				$rv = 3;
 			} else {
 				// try to authenticate
 				if (!ssh2_auth_password($this->connection, $this->user, $this->pass)) {

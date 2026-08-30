@@ -312,6 +312,7 @@ function routerconfigs_setup_table_new() {
 	$data['columns'][] = ['name' => 'sleep', 'type' => 'int(11)', 'NULL' => true];
 	$data['columns'][] = ['name' => 'timeout', 'type' => 'int(11)', 'NULL' => true];
 	$data['columns'][] = ['name' => 'debug', 'type' => 'longblob', 'NULL' => true];
+	$data['columns'][] = ['name' => 'ssh_fingerprint', 'type' => 'varchar(255)', 'NULL' => true];
 
 	$data['keys'][] = ['name' => 'enabled', 'columns' => 'enabled'];
 	$data['keys'][] = ['name' => 'schedule', 'columns' => 'schedule'];
